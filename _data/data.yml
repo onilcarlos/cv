@@ -294,11 +294,9 @@ skills:
 footer: >
     Get in <a href="http://onilcalcines.com/resume/pdf" target="_blank" rel="nofollow">PDF Format</a> - 
     Contact me at 
-    <li class="twitter">
-      <i class="fab fa-twitter"></i>
-       <a href="https://twitter.com/@onilcarlosit" target="_blank">@onilcarlosit</a>
-      </li>
-    </li>
+    <i class="fab fa-twitter" style="color:#2d7788"></i> 
+    <a href="https://twitter.com/@onilcarlosit" target="_blank">@onilcarlosit</a>
+     
     <hr />
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
 
