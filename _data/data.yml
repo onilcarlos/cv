@@ -24,9 +24,9 @@ sidebar:
     gitlab: onilcarlosit
     bitbucket: onilcarlosit
     twitter: '@onilcarlosit'
-    stack-overflow: 123456/alandoe # Number/Username, e.g. 123456/alandoe
+    stack-overflow: 123456/onilcarlos # Number/Username, e.g. 123456/alandoe
     codewars: onilcarlosit
-    goodreads: 123456-alandoe # Number-Username, e.g. 123456-alandoe
+    goodreads: 123456-onilcarlos # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
@@ -75,7 +75,7 @@ career-profile:
       Flask for Retail eCommerce, Javascript, MERN, MEAN, etc. 
       Received SPOT Award and Best Scrum Team while working at <a href="https://digitalico.com/" target="_blabk">Digitalico</a>.
 education:
-    - degree: MSc in Computer Science
+    - degree: BSc in Computer Science
       university: University of Cuba
       time: 1994 - 2000
       details: |
@@ -86,7 +86,7 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
+    - degree: MSc in Applied Mathematics
       university: Bristol University
       time: 2007 - 2011
       details: |
