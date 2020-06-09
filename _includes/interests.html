@@ -8,13 +8,16 @@
 
   <ul class="list-unstyled interests-list">
     {% for interest in interests %}
-
+      <li>
       {% if interest.link %}
-      <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
+        <a href="{{ interest.link }}" target="_blank">{{ interest.item }}</a>
       {% else %}
-      <li>{{ interest.item }}</li>
+        {{ interest.item }}
       {% endif %}
-
+        {% if interest.subitem %} 
+          <snap>interest.subitem</snap>
+        {% endif %}
+      </li>
     {% endfor %}
   </ul>
 
