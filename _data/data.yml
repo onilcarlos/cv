@@ -38,13 +38,13 @@ sidebar:
     interests:
       - item: Software Developer
         subitems: 
-            Python
-            JavaScript
-            Java
-            C#
-            NodeJs
-            Web Development
-            Mobile Development
+            - Python
+            - JavaScript
+            - Java
+            - C#
+            - NodeJs
+            - Web Development
+            - Mobile Development
         link: https://www.pluralsight.com/browse/software-development
 
       - item: Machine Learning / I.A.
