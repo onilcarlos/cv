@@ -37,6 +37,7 @@ sidebar:
 
     interests:
       - item: Software Developer
+        link: https://www.pluralsight.com/browse/software-development
         courses:
           - course: Python
           - course: JavaScript
@@ -45,15 +46,16 @@ sidebar:
           - course: NodeJs
           - course: Web Development
           - course: Mobile Development
-        link: https://www.pluralsight.com/browse/software-development
         
       - item: Machine Learning / I.A.
+        link: https://www.pluralsight.com/browse/machine-learning
         courses:
           - course: Machine Learning Literacy (Advanced Analytics, Statistics, Mathematics, Machine Learning, TensorFlow, PyTorch)
           - course: AWS Machine Learning / AI (AWS Application Development, AWS Databases, AWS Big Data)        
-        link: https://www.pluralsight.com/browse/machine-learning
+        
 
       - item: Data Profesional
+        link: https://www.pluralsight.com/browse/data-professional
         courses: 
           - course: Business Inteligence
           - course: Data Dashboard
@@ -65,7 +67,7 @@ sidebar:
           - course: SQL SERVER
           - course: MongoDB
           - course: Firebase
-        link: https://www.pluralsight.com/browse/data-professional
+        
         
 career-profile:
     title: Career Profile
