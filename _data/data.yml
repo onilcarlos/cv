@@ -1,4 +1,4 @@
-        
+
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
@@ -10,11 +10,11 @@ sidebar:
     # Profile information
     name: Onil Carlos Calcines Ruiz
     tagline: Full Stack Developer
-    personpic: personpic.png #"https://avatars0.githubusercontent.com/u/1109494"
-    #avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.png
+            #https://avatars0.githubusercontent.com/u/1109494
+            #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    location: 3905 NW 9th AVE, Miami FL 33127
     email: onilcarlosit@gmail.com
     phone: +1 (305) 504-1126
     website: onilcalcines.com #do not add http://
@@ -24,9 +24,9 @@ sidebar:
     gitlab: onilcarlosit
     bitbucket: onilcarlosit
     twitter: '@onilcarlosit'
-    stack-overflow: 123456/alandoe # Number/Username, e.g. 123456/alandoe
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars: onilcarlosit
-    goodreads: 123456-alandoe # Number-Username, e.g. 123456-alandoe
+    goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
@@ -35,12 +35,22 @@ sidebar:
       - idiom: Spanish
         level: Native
 
+    interests:
+      - item: Cooking
+        link:
+
+      - item: Tourism
+        link:
+
+      - item: Research
+        link:
+
 career-profile:
     title: Career Profile
     summary: |
       A Full Stack Developer with 5 years of experience in Python, Django, 
-      Flask for Retail eCommerce, Javascript, MERN, MEAN, etc. 
-      Received SPOT Award and Best Scrum Team while working at <a href="https://digitalico.com/" target="_blabk">Digitalico</a>.
+      Flask for Retail eCommerce, Javascript, MERN, etc. 
+      Received SPOT Award and Best Scrum Team while working at Digitalico.
 education:
     - degree: MSc in Computer Science
       university: University of Cuba
@@ -64,11 +74,10 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-          
 experiences:
     - role: Lead Developer
       time: 2015 - Present
-      company: Startup Hubs, Miami FL
+      company: Startup Hubs, San Francisco
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -92,7 +101,7 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-    - role: Jr. Developer
+    - role: UI Developer
       time: 2012 - 2014
       company: Amazon, London
       details: |
@@ -156,120 +165,47 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python
-        level: 40%
+      - name: Python & Django
+        level: 98%
         
-      - name: Django
-        level: 30%
-
       - name: Flask
-        level: 10%
+        level: 90%   
 
+      - name: Javascript, jQuery & NodeJS
+        level: 97%
+
+      - name: Front end frameworks (Angular, React, Vue)
+        level: 96%
+
+      - name: HTML5 & CSS3
+        level: 95%
+
+      - name: Git, Github, Gitlab & Btbucket
+        level: 95%
+
+      - name: Syntax knowledge of XML, JSON, etc.
+        level: 95%
+        
       - name: HTTP & REST
-        level: 30% 
-
-      - name: Git
-        level: 50%
-
-      - name: Github
-        level: 45%
-
-      - name: Gitlab
-        level: 10%
-
-      - name: Btbucket
-        level: 5%
-
-      - name: Javascript
-        level: 50%
-
-      - name: jQuery
-        level: 30
-
-      - name: NodeJS
-        level: 20%
-
-      - name: Angular
-        level: 15%
-
-      - name: React
-        level: 10%
-
-      - name: Vue
-        level: 10%
-
-      - name: NativeScript
-        level: 14%
-
-      - name: HTML5, XML, JSON
-        level: 80%
-
-      - name: CSS3
-        level: 70%
-
+        level: 85%  
+        
       - name: Ruby on Rails
-        level: 5%
-
-      - name: SQL
+        level: 85%
+        
+      - name: DB (SQL, MySQL, MongoDB, PostgreSQL, Oracle)
         level: 80%
+   
+      - name: Firebase & Google Cloud Platforms 
+        level: 70%
+        
+      - name: Others Skills (Java, .NET, SourceTree, AWS, Azure, Unit testing )
+        level: 65%
 
-      - name: MySQL
-        level: 82%
-
-      - name: MongoDB
-        level: 20%
-
-      - name: PostgreSQL
-        level: 15%
-
-      - name: Oracle
-        level: 10%
-
-      - name: Firebase
-        level: 30%
-
-      - name: Google Cloud Platforms 
-        level: 5%
-
-      - name: Java
-        level: 5%
-
-      - name: .NET
-        level: 10%
-
-      - name: SourceTree
-        level: 3%
-
-      - name: AWS
-        level: 1%
-
-      - name: Azure
-        level: 1%
-
-      - name: Unit testing
-        level: 1%
-
-      - name: Photoshop
+      - name: Sketch & Photoshop
         level: 60%
-
-      - name: Sketch
-        level: 10%
-
-      - name: Figma
-        level: 5%
         
 footer: >
-    Get in <a href="http://onilcalcines.com/resume/pdf" target="_blank" rel="nofollow">PDF Format</a> - 
-    Contact me at 
-    <a target="_blank" title="follow me on Twitter" href="https://www.twitter.com/onilcarlosit">
-        <img alt="follow me on Twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter15x15.png" border=0>
-         @onilcarlosit
-    </a>
-     <hr />
-    <i class="fa fa-twitter" aria-hidden="true"></i> 
-    <a target="_blank" title="follow me on Twitter" href="https://www.twitter.com/onilcarlosit">
-         @onilcarlosit
-    </a>
-    <hr />
+    <a href="http://onilcalcines.com/resume/pdf" target="_blank" rel="nofollow">PDF Format</a> and Contact me at @onilcarlosit
+    
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
 
