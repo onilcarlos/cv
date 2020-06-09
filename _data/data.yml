@@ -37,20 +37,25 @@ sidebar:
 
     interests:
       - item: Software Developer
-        link:
+        subitem: Python, JavaScript, Java, C#, NodeJs, Web Development, Mobile Development
+        link: https://www.pluralsight.com/browse/software-development
 
-      - item: Machine Learning
-        link:
+      - item: Machine Learning / IA
+        subitem: 
+        - Machine Learning Literacy (Advanced Analytics, Statistics, Mathematics, Machine Learning, TensorFlow, PyTorch)
+        - AWS Machine Learning / AI (AWS Application Development, AWS Databases, AWS Big Data)
+        link: https://www.pluralsight.com/browse/machine-learning
 
-      - item: Machine Learning Engineer
-        link:
+      - item: Data Profesional
+        subitem: Business Inteligence, Data Dashboard, Tableau, ORACLE, MYSQL, SQL, SQL SERVER
+        link: https://www.pluralsight.com/browse/data-professional
 
 career-profile:
     title: Career Profile
     summary: |
       A Full Stack Developer with 5 years of experience in Python, Django, 
-      Flask for Retail eCommerce, Javascript, MERN, etc. 
-      Received SPOT Award and Best Scrum Team while working at Digitalico.
+      Flask for Retail eCommerce, Javascript, MERN, MEAN, etc. 
+      Received SPOT Award and Best Scrum Team while working at <a href="https://digitalico.com/" target="_blabk">Digitalico</a>.
 education:
     - degree: MSc in Computer Science
       university: University of Cuba
@@ -74,10 +79,11 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
+          
 experiences:
     - role: Lead Developer
       time: 2015 - Present
-      company: Startup Hubs, San Francisco
+      company: Startup Hubs, Miami FL
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -101,7 +107,7 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-    - role: UI Developer
+    - role: Jr. Developer
       time: 2012 - 2014
       company: Amazon, London
       details: |
@@ -165,56 +171,59 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 40%
+        
+      - name: Django
+        level: 30%
 
       - name: Flask
-        level: 97%
+        level: 10%
 
       - name: HTTP & REST
-        level: 85% 
+        level: 30% 
 
       - name: Git
-        level: 96%
+        level: 50%
 
       - name: Github
-        level: 96%
+        level: 45%
 
       - name: Gitlab
-        level: 96%
+        level: 10%
 
       - name: Btbucket
-        level: 96%
+        level: 5%
 
       - name: Javascript
-        level: 96%
+        level: 50%
 
       - name: jQuery
-        level: 96%
+        level: 30
 
       - name: NodeJS
-        level: 96%
+        level: 20%
 
       - name: Angular
-        level: 95%
+        level: 15%
 
       - name: React
-        level: 95%
+        level: 10%
 
       - name: Vue
-        level: 95%
+        level: 10%
 
       - name: NativeScript
-        level: 95%
+        level: 14%
 
       - name: HTML5, XML, JSON
-        level: 95%
+        level: 80%
 
       - name: CSS3
-        level: 95%
+        level: 70%
 
       - name: Ruby on Rails
-        level: 85%
+        level: 5%
 
       - name: SQL
         level: 80%
@@ -223,52 +232,57 @@ skills:
         level: 82%
 
       - name: MongoDB
-        level: 74%
+        level: 20%
 
       - name: PostgreSQL
-        level: 73%
+        level: 15%
 
       - name: Oracle
-        level: 72%
+        level: 10%
 
       - name: Firebase
-        level: 70%
+        level: 30%
 
       - name: Google Cloud Platforms 
-        level: 70%
+        level: 5%
 
       - name: Java
-        level: 65%
+        level: 5%
 
       - name: .NET
-        level: 65%
+        level: 10%
 
       - name: SourceTree
-        level: 65%
+        level: 3%
 
       - name: AWS
-        level: 65%
+        level: 1%
 
       - name: Azure
-        level: 65%
+        level: 1%
 
       - name: Unit testing
-        level: 65%
+        level: 1%
 
       - name: Photoshop
         level: 60%
 
       - name: Sketch
-        level: 50%
+        level: 10%
 
       - name: Figma
-        level: 50%
+        level: 5%
         
 footer: >
     Get in <a href="http://onilcalcines.com/resume/pdf" target="_blank" rel="nofollow">PDF Format</a> - 
     Contact me at 
     <a target="_blank" title="follow me on Twitter" href="https://www.twitter.com/onilcarlosit">
-        <img alt="follow me on Twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter30x30.png" border=0>
+        <img alt="follow me on Twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter15x15.png" border=0>
+         @onilcarlosit
+    </a>
+     <hr />
+    <i class="fa fa-twitter" aria-hidden="true"></i> 
+    <a target="_blank" title="follow me on Twitter" href="https://www.twitter.com/onilcarlosit">
          @onilcarlosit
     </a>
     <hr />
