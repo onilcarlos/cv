@@ -14,8 +14,12 @@
       {% else %}
         {{ interest.item }}
       {% endif %}
-        {% if interest.subitem %} 
-          <snap>interest.subitem</snap>
+        {% if interest.subitems %} 
+         <ul class="list-unstyled interests-list">
+           {% for element in interest.subitems %}
+            <li>{{ element }}></li>
+            {% endfor %}
+         </ul> 
         {% endif %}
       </li>
     {% endfor %}
