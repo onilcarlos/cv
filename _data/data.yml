@@ -272,22 +272,22 @@ skills:
         level: 15%
 
       - name: Java
-        level: 5%
+        level: 15%
 
       - name: .NET
         level: 10%
 
       - name: SourceTree
-        level: 3%
+        level: 13%
 
       - name: AWS
-        level: 2%
+        level: 12%
 
       - name: Azure
-        level: 3%
+        level: 13%
 
       - name: Unit testing
-        level: 4%
+        level: 14%
 
       - name: Photoshop
         level: 60%
@@ -296,7 +296,7 @@ skills:
         level: 10%
 
       - name: Figma
-        level: 5%
+        level: 15%
         
 footer: >
     Get in <i class="far fa-file-pdf"></i> <a href="http://onilcalcines.com/resume/pdf" target="_blank" rel="nofollow">PDF Format</a> - 
