@@ -14,6 +14,7 @@ sidebar:
     #avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
+    location: 3905 NW 9th AVE, Miami FL 33127
     email: onilcarlosit@gmail.com
     phone: +1 (305) 504-1126
     website: onilcalcines.com #do not add http://
@@ -23,9 +24,9 @@ sidebar:
     gitlab: onilcarlosit
     bitbucket: onilcarlosit
     twitter: '@onilcarlosit'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    stack-overflow: ? # Number/Username, e.g. 123456/alandoe
     codewars: onilcarlosit
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    goodreads: ? # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
