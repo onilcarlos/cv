@@ -9,13 +9,13 @@
   <ul class="list-unstyled interests-list">
     {% for interest in interests %}
       <li>
-        <h5>
+        <h4>
         {% if interest.link %}
           <a href="{{ interest.link }}" target="_blank">{{ interest.item }}</a>
         {% else %}
         {{ interest.item }}
         {% endif %}
-        </h5>
+        </h4>
           {% if interest.courses %} 
             <ul>
               {% for element in interest.courses %}
