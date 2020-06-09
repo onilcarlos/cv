@@ -14,10 +14,10 @@
       {% else %}
         {{ interest.item }}
       {% endif %}
-        {% if interest.subitems %} 
+        {% if interest.courses %} 
           <ul>
-           {% for subitem in interest.subitems %}
-            <li>{{ subitem.course }}</li>
+           {% for course in interest.courses %}
+            <li>{{ course }}</li>
             {% endfor %}
            </ul>
         {% endif %}
