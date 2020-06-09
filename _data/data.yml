@@ -36,16 +36,6 @@ sidebar:
         level: Native
 
     interests:
-      - item: Software Developer
-        subitems: 
-            - course: Python
-            - course: JavaScript
-            - course: Java
-            - course: C#
-            - course: NodeJs
-            - course: Web Development
-            - course: Mobile Development
-        link: https://www.pluralsight.com/browse/software-development
 
       - item: Machine Learning / I.A.
         subitems:
@@ -66,6 +56,18 @@ sidebar:
             - course: MongoDB
             - course: Firebase
         link: https://www.pluralsight.com/browse/data-professional
+        
+        
+      - item: Software Developer
+        subitems: 
+            - course: Python
+            - course: JavaScript
+            - course: Java
+            - course: C#
+            - course: NodeJs
+            - course: Web Development
+            - course: Mobile Development
+        link: https://www.pluralsight.com/browse/software-development
 
 career-profile:
     title: Career Profile
