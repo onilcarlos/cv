@@ -9,9 +9,9 @@
 
     {% for graduation in education %}
     <div class="item">
-      <h4 class="degree"><i class="fad fa-graduation-cap fa-sm"></i> {{ graduation.degree }}</h4>
-      <h5 class="meta"><i class="fad fa-map-marker fa-xs"></i> {{ graduation.university }}</h5>
-      <div class="time"><i class="fad fa-calendar-alt fa-xs"></i> {{ graduation.time }}</div>
+      <h4 class="degree"><i class="fas fa-graduation-cap fa-sm"></i> {{ graduation.degree }}</h4>
+      <h5 class="meta"><i class="fas fa-map-marker fa-xs"></i> {{ graduation.university }}</h5>
+      <div class="time"><i class="fas fa-calendar-alt fa-xs"></i> {{ graduation.time }}</div>
     </div><!--//item-->
     {% endfor %}
 
@@ -33,11 +33,11 @@
       <div class="meta">
 
         <div class="upper-row">
-          <h3 class="degree"><i class="fad fa-graduation-cap fa-sm"></i> {{ graduation.degree }}</h3>
-          <div class="time"><i class="fad fa-calendar-alt fa-xs"></i> {{ graduation.time }}</div>
+          <h3 class="degree"><i class="fas fa-graduation-cap fa-sm"></i> {{ graduation.degree }}</h3>
+          <div class="time"><i class="fas fa-calendar-alt fa-xs"></i> {{ graduation.time }}</div>
         </div><!--//upper-row-->
 
-        <div class="university"><i class="fad fa-map-marker fa-xs"></i> {{ graduation.university }}</div>
+        <div class="university"><i class="fas fa-map-marker fa-xs"></i> {{ graduation.university }}</div>
       </div><!--//meta-->
 
       {% if graduation.details %}
