@@ -37,17 +37,34 @@ sidebar:
 
     interests:
       - item: Software Developer
-        subitem: Python, JavaScript, Java, C#, NodeJs, Web Development, Mobile Development
+        subitems: 
+        - Python
+        - JavaScript
+        - Java
+        - C#
+        - NodeJs
+        - Web Development
+        - Mobile Development
         link: https://www.pluralsight.com/browse/software-development
 
-      - item: Machine Learning / IA
-        subitem: 
+      - item: Machine Learning / I.A.
+        subitems: 
         - Machine Learning Literacy (Advanced Analytics, Statistics, Mathematics, Machine Learning, TensorFlow, PyTorch)
         - AWS Machine Learning / AI (AWS Application Development, AWS Databases, AWS Big Data)
         link: https://www.pluralsight.com/browse/machine-learning
 
       - item: Data Profesional
-        subitem: Business Inteligence, Data Dashboard, Tableau, ORACLE, MYSQL, SQL, SQL SERVER
+        subitems: 
+        - Business Inteligence, 
+        - Data Dashboard, 
+        - Tableau, 
+        - ORACLE, 
+        - MYSQL, 
+        - PostgreSQL,
+        - SQL, 
+        - SQL SERVER,
+        - MongoDB, 
+        - Firebase
         link: https://www.pluralsight.com/browse/data-professional
 
 career-profile:
