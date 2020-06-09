@@ -24,9 +24,9 @@ sidebar:
     gitlab: onilcarlosit
     bitbucket: onilcarlosit
     twitter: '@onilcarlosit'
-    stack-overflow: ? # Number/Username, e.g. 123456/alandoe
+    stack-overflow: 123456/alandoe # Number/Username, e.g. 123456/alandoe
     codewars: onilcarlosit
-    goodreads: ? # Number-Username, e.g. 123456-alandoe
+    goodreads: 123456-alandoe # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
