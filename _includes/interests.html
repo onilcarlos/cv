@@ -17,7 +17,7 @@
         {% if interest.subitems %} 
           <ul>
            {% for subitem in interest.subitems %}
-            <li>subitem.course</li>
+            <li>{{ subitem.course }}</li>
             {% endfor %}
            </ul>
         {% endif %}
