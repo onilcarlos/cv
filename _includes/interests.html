@@ -15,7 +15,13 @@
         {% else %}
         {{ interest.item }}
         {% endif %}
-          
+          {% if interest.courses %} 
+            <ul>
+            {% for course in interest.courses %}
+              <li>{{ course }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
         </h5>
     </li>
     {% endfor %}
