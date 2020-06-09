@@ -1,73 +1,92 @@
+        
 #
-# Be aware that even a small syntax error here can lead to failures in output. 
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
+    name: Onil Carlos Calcines Ruiz
     tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    personpic: personpic.png #"https://avatars0.githubusercontent.com/u/1109494"
+    #avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
+    location: 3905 NW 9th AVE, Miami FL 33127
+    email: onilcarlosit@gmail.com
+    phone: +1 (305) 504-1126
+    website: onilcalcines.com #do not add http://
+    linkedin: onilcarlosit
+    github: onilcarlos
+    telegram: # add your nickname without '@' sign
+    gitlab: onilcarlosit
+    bitbucket: onilcarlosit
+    twitter: '@onilcarlosit'
+    stack-overflow: 123456/alandoe # Number/Username, e.g. 123456/alandoe
+    codewars: onilcarlosit
+    goodreads: 123456-alandoe # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
-        level: Native
-
-      - idiom: French
         level: Professional
 
       - idiom: Spanish
-        level: Professional
-        
+        level: Native
+
     interests:
-      - item: Climbing
-        link:
+      
+        - item: Software Developer
+        link: https://www.pluralsight.com/browse/software-development
+        courses:
+          - course: Python
+          - course: JavaScript
+          - course: Java
+          - course: C#
+          - course: NodeJs
+          - course: Web Development
+          - course: Mobile Development
+        
+      - item: Machine Learning / I.A.
+        link: https://www.pluralsight.com/browse/machine-learning
+        courses:
+          - course: Machine Learning Literacy (Advanced Analytics, Statistics, Mathematics, Machine Learning, TensorFlow, PyTorch)
+          - course: AWS Machine Learning / AI (AWS Application Development, AWS Databases, AWS Big Data)        
+        
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+      - item: Data Profesional
+        link: https://www.pluralsight.com/browse/data-professional
+        courses: 
+          - course: Business Inteligence
+          - course: Data Dashboard
+          - course: Tableau
+          - course: ORACLE
+          - course: MYSQL
+          - course: PostgreSQL
+          - course: SQL
+          - course: SQL SERVER
+          - course: MongoDB
+          - course: Firebase
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
-
+      A Full Stack Developer with 5 years of experience in Python, Django, 
+      Flask for Retail eCommerce, Javascript, MERN, MEAN, etc. 
+      Received SPOT Award and Best Scrum Team while working at <a href="https://digitalico.com/" target="_blabk">Digitalico</a>.
 education:
     - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+      university: University of Cuba
+      time: 1994 - 2000
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
-
           - Bullet point
-          - Bullet point 
-
+          - Bullet point
     - degree: BSc in Applied Mathematics
       university: Bristol University
       time: 2007 - 2011
@@ -77,14 +96,13 @@ education:
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
-
           - Bullet point
-          - Bullet point 
-
+          - Bullet point
+          
 experiences:
     - role: Lead Developer
       time: 2015 - Present
-      company: Startup Hubs, San Francisco
+      company: Startup Hubs, Miami FL
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -95,10 +113,8 @@ experiences:
         error sit voluptatem accusantium doloremque laudantium, totam rem
         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
         architecto beatae vitae dicta sunt explicabo.
-
           - Bullet point
-          - Bullet point 
-
+          - Bullet point
     - role: Senior Software Engineer
       time: 2014 - 2015
       company: Google, London
@@ -108,11 +124,9 @@ experiences:
         Cum sociis natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. Donec quam felis, ultricies nec,
         pellentesque eu, pretium quis, sem.
-
           - Bullet point
           - Bullet point
-
-    - role: UI Developer
+    - role: Jr. Developer
       time: 2012 - 2014
       company: Amazon, London
       details: |
@@ -121,17 +135,14 @@ experiences:
         Cum sociis natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. Donec quam felis, ultricies nec,
         pellentesque eu, pretium quis, sem.
-
           - Bullet point
           - Bullet point
-
 projects:
     title: Projects
     intro: >
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
     assignments:
       - title: Velocity
         link: "#hook"
@@ -159,17 +170,19 @@ publications:
       You can list your publications in this section. Lorem ipsum dolor sit
       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       bibendum fringilla a eu lectus.
-
     papers:
       - title: The Art of Computer Programming
+        link: "#"
         authors: Donald E. Knuth
         conference: Addison-Wesley, 1968
 
       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
       - title: A syntax directed compiler for Algol 60
+        link: "#"
         authors: Edgar T. Irons
         conference: "Comm. ACM 4 (1961), 51–55"
 
@@ -177,23 +190,120 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 40%
+        
+      - name: Django
+        level: 30%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Flask
+        level: 10%
+
+      - name: HTTP & REST
+        level: 30% 
+
+      - name: Git
+        level: 50%
+
+      - name: Github
+        level: 45%
+
+      - name: Gitlab
+        level: 10%
+
+      - name: Btbucket
+        level: 5%
+
+      - name: Javascript
+        level: 50%
+
+      - name: jQuery
+        level: 30
+
+      - name: NodeJS
+        level: 20%
 
       - name: Angular
-        level: 98%
+        level: 15%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: React
+        level: 10%
+
+      - name: Vue
+        level: 10%
+
+      - name: NativeScript
+        level: 14%
+
+      - name: HTML5, XML, JSON
+        level: 80%
+
+      - name: CSS3
+        level: 70%
 
       - name: Ruby on Rails
-        level: 85%
+        level: 5%
 
-      - name: Sketch & Photoshop
+      - name: SQL
+        level: 80%
+
+      - name: MySQL
+        level: 82%
+
+      - name: MongoDB
+        level: 20%
+
+      - name: PostgreSQL
+        level: 15%
+
+      - name: Oracle
+        level: 10%
+
+      - name: Firebase
+        level: 30%
+
+      - name: Google Cloud Platforms 
+        level: 5%
+
+      - name: Java
+        level: 5%
+
+      - name: .NET
+        level: 10%
+
+      - name: SourceTree
+        level: 3%
+
+      - name: AWS
+        level: 1%
+
+      - name: Azure
+        level: 1%
+
+      - name: Unit testing
+        level: 1%
+
+      - name: Photoshop
         level: 60%
 
+      - name: Sketch
+        level: 10%
+
+      - name: Figma
+        level: 5%
+        
 footer: >
+    Get in <a href="http://onilcalcines.com/resume/pdf" target="_blank" rel="nofollow">PDF Format</a> - 
+    Contact me at 
+    <a target="_blank" title="follow me on Twitter" href="https://www.twitter.com/onilcarlosit">
+        <img alt="follow me on Twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter15x15.png" border=0>
+         @onilcarlosit
+    </a>
+     <hr />
+    <i class="fa fa-twitter" aria-hidden="true"></i> 
+    <a target="_blank" title="follow me on Twitter" href="https://www.twitter.com/onilcarlosit">
+         @onilcarlosit
+    </a>
+    <hr />
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+
