@@ -36,7 +36,7 @@ sidebar:
         level: Native
 
     interests:
-        - item: Software Developer
+      - item: Software Developer
         link: https://www.pluralsight.com/browse/software-development
         courses:
           - course: Python
