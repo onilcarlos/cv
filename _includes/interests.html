@@ -15,11 +15,11 @@
         {{ interest.item }}
       {% endif %}
         {% if interest.item.subitems %} 
-          <br />
+          <ul>
            {% for element in interest.item.subitems %}
-            <snap>{{ element }}</snap>
+            <li>{{ element }}</li>
             {% endfor %}
-         
+        </ul>
         {% endif %}
       </li>
     {% endfor %}
