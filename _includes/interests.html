@@ -15,9 +15,9 @@
         {{ interest.item }}
       {% endif %}
         {% if interest.item.subitems %} 
-         <ul class="list-unstyled interests-list">
+         <ul>
            {% for element in interest.item.subitems %}
-            <li>{{ element }}></li>
+            <li>{{ element }}</li>
             {% endfor %}
          </ul> 
         {% endif %}
