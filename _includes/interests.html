@@ -8,20 +8,22 @@
 
   <ul class="list-unstyled interests-list">
     {% for interest in interests %}
-      <li><h5>
-      {% if interest.link %}
-        <a href="{{ interest.link }}" target="_blank">{{ interest.item }}</a>
-      {% else %}
+      <li>
+        <h5>
+        {% if interest.link %}
+          <a href="{{ interest.link }}" target="_blank">{{ interest.item }}</a>
+        {% else %}
         {{ interest.item }}
-      {% endif %}
-        {% if interest.courses %} 
-          <ul>
-           {% for course in interest.courses %}
-            <li>{{ course }}</li>
-            {% endfor %}
-           </ul>
         {% endif %}
-        </h5></li>
+          {% if interest.courses %} 
+            <ul>
+            {% for course in interest.courses %}
+              <li>{{ course }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </h5>
+    </li>
     {% endfor %}
   </ul>
 
