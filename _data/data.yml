@@ -68,6 +68,8 @@ sidebar:
           - course: MongoDB
           - course: Firebase
 
+       - item: Remote or House
+
 career-profile:
     title: Career Profile
     summary: |
@@ -135,14 +137,6 @@ experiences:
           - Bullet point
           - Bullet point
 
-certifications:
-
-achievements:
-
-contributions:
-
-recognitions:
-
 projects:
     title: Projects
     intro: >
@@ -171,26 +165,36 @@ projects:
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+#    title: Publications
+#    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
+#    papers:
+#      - title: The Art of Computer Programming
+#        link: "#"
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        link: "#"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#      - title: A syntax directed compiler for Algol 60
+#        link: "#"
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
+
+certifications:
+
+achievements:
+
+contributions:
+
+recognitions:
+
+channels_youtube:
 
 skills:
     title: Skills &amp; Proficiency
@@ -213,6 +217,12 @@ skills:
 
       - name: Github
         level: 95%
+        
+      - name: Jeckyll
+        level: 75%
+        
+      - name: MarkDown
+        level: 85%
 
       - name: Gitlab
         level: 80%
@@ -241,7 +251,13 @@ skills:
       - name: NativeScript
         level: 57%
 
-      - name: HTML5, XML, JSON
+      - name: MEAN
+        level: 55%
+
+      - name: MERN
+        level: 45%
+
+      - name: HTML5, XML, JSON, YAML, TOML
         level: 80%
 
       - name: CSS3
@@ -249,6 +265,12 @@ skills:
 
       - name: Ruby on Rails
         level: 35%
+        
+      - name: Go
+        level: 25%
+        
+      - name: Hugo
+        level: 20%
 
       - name: SQL
         level: 80%
@@ -271,6 +293,12 @@ skills:
       - name: Google Cloud Platforms 
         level: 15%
 
+      - name: PHP
+        level: 60%
+      
+      - name: Laravel
+        level: 35%
+        
       - name: Java
         level: 15%
 
@@ -279,6 +307,12 @@ skills:
 
       - name: SourceTree
         level: 13%
+        
+      - name: Android
+        level: 15%
+        
+      - name: Swift
+        level: 15%
 
       - name: AWS
         level: 12%
