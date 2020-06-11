@@ -34,6 +34,9 @@ sidebar:
 
       - idiom: Spanish
         level: Native
+        
+    availability: remote or in house
+    relocating: in USA only in FL, NY and CA.
 
     interests:
       - item: Software Developer
@@ -41,7 +44,7 @@ sidebar:
         courses:
           - course: Python
           - course: JavaScript
-          - course: Java
+          - course: Go
           - course: C#
           - course: NodeJs
           - course: Web Development
@@ -280,6 +283,9 @@ skills:
 
       - name: PostgreSQL
         level: 15%
+        
+      - name: GraphQL
+        level: 30%
 
       - name: Oracle
         level: 10%
@@ -287,7 +293,7 @@ skills:
       - name: Firebase
         level: 30%
 
-      - name: Google Cloud Platforms 
+      - name: Google Cloud Platforms
         level: 15%
 
       - name: PHP
@@ -295,6 +301,12 @@ skills:
       
       - name: Laravel
         level: 35%
+        
+      - name: Pear
+        level: 15%
+        
+      - name: Elixir
+        level: 15%
         
       - name: Java
         level: 15%
