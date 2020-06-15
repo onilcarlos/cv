@@ -237,12 +237,10 @@ p {
     }
 }
 
-.panel-default>.panel-heading .badge, 
-.panel-title > .badge {
-    background-color: darken($theme-color, 15%) !important;
+.panel-default>.panel-heading .badge {
+    background-color: darken($theme-color, 85%) !important;
     color: #ffffff;
     float: right;
-     
 }
 
 .skillset {
