@@ -199,7 +199,7 @@ channels_youtube:
 skills:
     title: Skills &amp; Proficiency
 
-    toolset:
+    backendset:
       - name: Python
         level: 80%
         
@@ -208,37 +208,41 @@ skills:
 
       - name: Flask
         level: 50%
-
-      - name: HTTP & REST
-        level: 70% 
-
-      - name: Git
-        level: 90%
-
-      - name: Github
-        level: 95%
         
-      - name: Jeckyll
-        level: 75%
+      - name: NodeJS
+        level: 60%
         
-      - name: MarkDown
-        level: 85%
+      - name: Ruby on Rails
+        level: 35%
+        
+      - name: Go
+        level: 25%
+        
+      - name: PHP
+        level: 60%
+      
+      - name: Laravel
+        level: 35%
+        
+      - name: Pear
+        level: 15%
+        
+      - name: Elixir
+        level: 15%
+        
+      - name: Java
+        level: 15%
 
-      - name: Gitlab
-        level: 80%
-
-      - name: Btbucket
-        level: 75%
-
+      - name: .NET
+        level: 10%
+        
+    frontentset:
       - name: Javascript
         level: 90%
 
       - name: jQuery
         level: 70%
-
-      - name: NodeJS
-        level: 60%
-
+      
       - name: Angular
         level: 55%
 
@@ -250,27 +254,50 @@ skills:
 
       - name: NativeScript
         level: 57%
-
-      - name: MEAN
-        level: 55%
-
-      - name: MERN
-        level: 45%
-
+        
       - name: HTML5, XML, JSON, YAML, TOML
         level: 80%
 
       - name: CSS3
         level: 70%
 
-      - name: Ruby on Rails
-        level: 35%
+    mobileset:
+      - name: Android
+        level: 15%
         
-      - name: Go
-        level: 25%
+      - name: Swift
+        level: 15%
+        
+    toolset:
+      - name: Git
+        level: 90%
+
+      - name: Github
+        level: 95%
+
+      - name: Gitlab
+        level: 80%
+
+      - name: Btbucket
+        level: 75%
+        
+      - name: MEAN
+        level: 55%
+
+      - name: MERN
+        level: 45%
+        
+      - name: Jeckyll
+        level: 75%
         
       - name: Hugo
         level: 20%
+        
+      - name: MarkDown
+        level: 85%
+        
+      - name: HTTP & REST
+        level: 70% 
 
       - name: SQL
         level: 80%
@@ -292,41 +319,17 @@ skills:
 
       - name: Firebase
         level: 30%
+        
+      - name: AWS
+        level: 12%
+        
+      - name: Azure
+        level: 13%
 
       - name: Google Cloud Platforms
         level: 15%
 
-      - name: PHP
-        level: 60%
-      
-      - name: Laravel
-        level: 35%
-        
-      - name: Pear
-        level: 15%
-        
-      - name: Elixir
-        level: 15%
-        
-      - name: Java
-        level: 15%
-
-      - name: .NET
-        level: 10%
-
       - name: SourceTree
-        level: 13%
-        
-      - name: Android
-        level: 15%
-        
-      - name: Swift
-        level: 15%
-
-      - name: AWS
-        level: 12%
-
-      - name: Azure
         level: 13%
 
       - name: Unit testing
