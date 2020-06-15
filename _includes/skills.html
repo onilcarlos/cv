@@ -12,30 +12,93 @@
   
   <div class="panel panel-default">
    <div class="panel-heading">
-    <h3 class="panel-title">Backend Skills <span class="badge">42</span></h3>
+    <h3 class="panel-title">Backend Skills <span class="badge">{{ skills.backendset.size }}</span></h3>
    </div>
    <div class="panel-body">
-    Backend list skills ...
-   </div>
-  </div>
+    <!-- Backend list skills ... -->
+     
+     <div class="skillset">
+       
+      {% for skill in skills.backendset %}
+       <div class="item">
+
+        <h5 class="level-title">{{ skill.name }}</h5>
+
+        <div class="level-bar">
+         <div class="level-bar-inner" data-level="{{ skill.level }}" style="border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">
+          <div style="border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; font-size: 9px; color: #f9f8f8; background-color: #35899d; margin: 0px 0px 0px 0px; padding: 0px 10px 0px 10px; vertical-align: top; font-weight: bold; float: right;">
+           {{ skill.level }}
+          </div>
+         </div>
+        </div><!--//level-bar-->
+
+       </div><!--//item-->
+      {% endfor %}
+
+     </div><!-- //skillset -->
+     
+   </div><!-- panel-body -->
+  </div><!-- panel -->
   
   <div class="panel panel-default">
    <div class="panel-heading">
-    <h3 class="panel-title">Frontent Skills <span class="badge">42</span></h3>
+    <h3 class="panel-title">Frontent Skills <span class="badge">{{ skills.frontentset.size }}</span></h3>
    </div>
    <div class="panel-body">
-    Frontent list skills ...
-   </div>
-  </div>
+    <!-- Frontent list skills ... -->
+     
+     <div class="skillset">
+       
+      {% for skill in skills.frontentset %}
+       <div class="item">
+
+        <h5 class="level-title">{{ skill.name }}</h5>
+
+        <div class="level-bar">
+         <div class="level-bar-inner" data-level="{{ skill.level }}" style="border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">
+          <div style="border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; font-size: 9px; color: #f9f8f8; background-color: #35899d; margin: 0px 0px 0px 0px; padding: 0px 10px 0px 10px; vertical-align: top; font-weight: bold; float: right;">
+           {{ skill.level }}
+          </div>
+         </div>
+        </div><!--//level-bar-->
+
+       </div><!--//item-->
+      {% endfor %}
+
+     </div><!-- //skillset -->
+     
+   </div><!-- panel-body -->
+  </div><!-- panel -->
   
   <div class="panel panel-default">
    <div class="panel-heading">
-    <h3 class="panel-title">Mobile Skills <span class="badge">42</span></h3>
+    <h3 class="panel-title">Mobile Skills <span class="badge">{{ skills.mobileset.size }}</span></h3>
    </div>
    <div class="panel-body">
-    Mobile list skills ...
-   </div>
-  </div>
+    <!-- Mobile list skills ... -->
+     
+     <div class="skillset">
+       
+      {% for skill in skills.mobileset %}
+       <div class="item">
+
+        <h5 class="level-title">{{ skill.name }}</h5>
+
+        <div class="level-bar">
+         <div class="level-bar-inner" data-level="{{ skill.level }}" style="border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">
+          <div style="border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; font-size: 9px; color: #f9f8f8; background-color: #35899d; margin: 0px 0px 0px 0px; padding: 0px 10px 0px 10px; vertical-align: top; font-weight: bold; float: right;">
+           {{ skill.level }}
+          </div>
+         </div>
+        </div><!--//level-bar-->
+
+       </div><!--//item-->
+      {% endfor %}
+
+     </div><!-- //skillset -->
+     
+   </div><!-- panel-body -->
+  </div><!-- panel -->
   
   <div class="panel panel-default">
    <div class="panel-heading">
@@ -43,27 +106,29 @@
    </div>
    <div class="panel-body">
     <!-- Toolset list skills ... -->
+     
      <div class="skillset">
+       
+      {% for skill in skills.toolset %}
+       <div class="item">
 
-    {% for skill in skills.toolset %}
-    <div class="item">
+        <h5 class="level-title">{{ skill.name }}</h5>
 
-      <h5 class="level-title">{{ skill.name }}</h5>
-
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}" style="border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">
+        <div class="level-bar">
+         <div class="level-bar-inner" data-level="{{ skill.level }}" style="border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">
           <div style="border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; font-size: 9px; color: #f9f8f8; background-color: #35899d; margin: 0px 0px 0px 0px; padding: 0px 10px 0px 10px; vertical-align: top; font-weight: bold; float: right;">
            {{ skill.level }}
           </div>
-        </div>
-      </div><!--//level-bar-->
+         </div>
+        </div><!--//level-bar-->
 
-    </div><!--//item-->
-    {% endfor %}
+       </div><!--//item-->
+      {% endfor %}
 
-  </div>
-   </div>
-  </div>
+     </div><!-- //skillset -->
+     
+   </div><!-- panel-body -->
+  </div><!-- panel -->
 
 </section><!--//skills-section-->
 {% endif %}
