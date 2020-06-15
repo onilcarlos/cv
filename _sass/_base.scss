@@ -272,8 +272,8 @@ p {
 	padding: 1px 5px 1px 5px;
 	vertical-align: top; 
 	float: right; 
-	color: #f9f8f8; 
-        background: darken($theme-color, 90%); 
+	color: lighten($theme-color, 10%);
+        background: darken($theme-color, 99%); 
     }
 }
 
