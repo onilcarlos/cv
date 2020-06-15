@@ -4,6 +4,6 @@
 
 @charset "utf-8";
 
-@import "skins/{{ site.theme_skin | default: 'ceramic' }}"; 
+@import "skins/{{ site.theme_skin | default: 'orange' }}"; 
 // skin $theme-color: 'blue' or 'turquoise' or 'green' or 'berry' or 'orange' or 'ceramic'
 @import "default"; // main partials
