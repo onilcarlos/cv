@@ -251,10 +251,27 @@ p {
     .level-bar {
         height: 12px;
         background: $smoky-white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
     }
     .level-bar-inner {
         height: 12px;
         background: lighten($theme-color, 15%);
+    }
+    .level-bar-text {
+	border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	font-size: 9px;
+	font-weight: bold;
+	margin: -1px 0px -1px 0px;
+	padding: 1px 5px 1px 5px;
+	vertical-align: top; 
+	float: right; 
+	color: #f9f8f8; 
+	background-color: #35899d;
+        //background: lighten($theme-color, 50%);
     }
 }
 
