@@ -12,7 +12,7 @@
   
   <div class="panel panel-default">
    <div class="panel-heading">
-    <h3 class="panel-title">Backend Skills <span class="badge">{{ skills.backendset.size }}</span></h3>
+    <h3 class="panel-title list-group-item">Backend Skills <span class="badge">{{ skills.backendset.size }}</span></h3>
    </div>
    <div class="panel-body">
     <!-- Backend list skills ... -->
@@ -42,7 +42,7 @@
   
   <div class="panel panel-default">
    <div class="panel-heading">
-    <h3 class="panel-title">Frontent Skills <span class="badge">{{ skills.frontentset.size }}</span></h3>
+    <h3 class="panel-title list-group-item">Frontent Skills <span class="badge">{{ skills.frontentset.size }}</span></h3>
    </div>
    <div class="panel-body">
     <!-- Frontent list skills ... -->
@@ -72,7 +72,7 @@
   
   <div class="panel panel-default">
    <div class="panel-heading">
-    <h3 class="panel-title">Mobile Skills <span class="badge">{{ skills.mobileset.size }}</span></h3>
+    <h3 class="panel-title list-group-item">Mobile Skills <span class="badge">{{ skills.mobileset.size }}</span></h3>
    </div>
    <div class="panel-body">
     <!-- Mobile list skills ... -->
@@ -102,7 +102,7 @@
   
   <div class="panel panel-default">
    <div class="panel-heading">
-    <h3 class="panel-title">Toolset and Data Skills <span class="badge">{{ skills.toolset.size }}</span></h3> 
+    <h3 class="panel-title list-group-item">Toolset and Data Skills <span class="badge">{{ skills.toolset.size }}</span></h3> 
    </div>
    <div class="panel-body">
     <!-- Toolset list skills ... -->
@@ -110,6 +110,66 @@
      <div class="skillset">
        
       {% for skill in skills.toolset %}
+       <div class="item">
+
+        <h5 class="level-title">{{ skill.name }}</h5>
+
+        <div class="level-bar">
+         <div class="level-bar-inner" data-level="{{ skill.level }}">
+          <div class="level-bar-text">
+           {{ skill.level }}
+          </div>
+         </div>
+        </div><!--//level-bar-->
+
+       </div><!--//item-->
+      {% endfor %}
+
+     </div><!-- //skillset -->
+     
+   </div><!-- panel-body -->
+  </div><!-- panel -->
+  
+  <div class="panel panel-default">
+   <div class="panel-heading">
+    <h3 class="panel-title list-group-item">Toolset and Data Skills <span class="badge">{{ skills.databasest.size }}</span></h3> 
+   </div>
+   <div class="panel-body">
+    <!-- DataBaseSet list skills ... -->
+     
+     <div class="skillset">
+       
+      {% for skill in skills.databaseset %}
+       <div class="item">
+
+        <h5 class="level-title">{{ skill.name }}</h5>
+
+        <div class="level-bar">
+         <div class="level-bar-inner" data-level="{{ skill.level }}">
+          <div class="level-bar-text">
+           {{ skill.level }}
+          </div>
+         </div>
+        </div><!--//level-bar-->
+
+       </div><!--//item-->
+      {% endfor %}
+
+     </div><!-- //skillset -->
+     
+   </div><!-- panel-body -->
+  </div><!-- panel -->
+  
+  <div class="panel panel-default">
+   <div class="panel-heading">
+    <h3 class="panel-title list-group-item">Toolset and Data Skills <span class="badge">{{ skills.designtoolsset.size }}</span></h3> 
+   </div>
+   <div class="panel-body">
+    <!-- DesignToolsSet list skills ... -->
+     
+     <div class="skillset">
+       
+      {% for skill in skills.designtoolsset %}
        <div class="item">
 
         <h5 class="level-title">{{ skill.name }}</h5>
