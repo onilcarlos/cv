@@ -338,16 +338,16 @@ skills:
         level: 30%
 
       - name: Oracle
-        level: 10%
+        level: 15%
 
       - name: Firebase
         level: 30%
         
       - name: AWS
-        level: 12%
+        level: 15%
         
       - name: Azure
-        level: 13%
+        level: 15%
 
       - name: Google Cloud Platforms
         level: 15%
@@ -358,7 +358,7 @@ skills:
         level: 60%
 
       - name: Sketch
-        level: 10%
+        level: 15%
 
       - name: Figma
         level: 15%
