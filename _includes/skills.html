@@ -39,7 +39,7 @@
   
   <div class="panel panel-default">
    <div class="panel-heading">
-    <h3 class="panel-title">Toolset Skills <span class="badge">{{ skills.toolset.length() }}</span></h3> 
+    <h3 class="panel-title">Toolset Skills <span class="badge">{{ skills.toolset.size }}</span></h3> 
    </div>
    <div class="panel-body">
     <!-- Toolset list skills ... -->
@@ -48,7 +48,7 @@
     {% for skill in skills.toolset %}
     <div class="item">
 
-      <h5 class="level-title">{{ skill.name }} - {{ skills.toolset.length() }} - q: {{ skills.toolset.quantity }} </h5>
+      <h5 class="level-title">{{ skill.name }}</h5>
 
       <div class="level-bar">
         <div class="level-bar-inner" data-level="{{ skill.level }}" style="border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">
