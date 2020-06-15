@@ -237,8 +237,10 @@ p {
     }
 }
 
+.panel-default>.panel-heading .badge, 
 .panel-title > .badge {
-    background: darken($theme-color, 15%);
+    background-color: darken($theme-color, 15%) !important;
+    color: #ffffff;
     float: right;
      
 }
