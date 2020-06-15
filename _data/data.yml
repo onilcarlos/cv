@@ -215,8 +215,14 @@ skills:
       - name: Ruby on Rails
         level: 35%
         
+      - name: Jeckyll
+        level: 75%
+        
       - name: Go
         level: 25%
+        
+      - name: Hugo
+        level: 20%
         
       - name: PHP
         level: 60%
@@ -242,11 +248,27 @@ skills:
 
       - name: jQuery
         level: 70%
-      
+        
+      - name: HTML5, XML, JSON, YAML, TOML
+        level: 80%
+
+      - name: MarkDown
+        level: 85%
+
+      - name: CSS3
+        level: 70%
+
+    mobileset:
       - name: Angular
+        level: 55%
+        
+      - name: MEAN
         level: 55%
 
       - name: React
+        level: 45%
+
+      - name: MERN
         level: 45%
 
       - name: Vue
@@ -254,14 +276,7 @@ skills:
 
       - name: NativeScript
         level: 57%
-        
-      - name: HTML5, XML, JSON, YAML, TOML
-        level: 80%
-
-      - name: CSS3
-        level: 70%
-
-    mobileset:
+ 
       - name: Android
         level: 15%
         
@@ -276,25 +291,19 @@ skills:
         level: 95%
 
       - name: Gitlab
-        level: 80%
+        level: 45%
 
       - name: Btbucket
-        level: 75%
+        level: 40%
         
-      - name: MEAN
+      - name: Docker
+        level: 40%
+        
+      - name: Gulp
         level: 55%
 
-      - name: MERN
+      - name: Webpack
         level: 45%
-        
-      - name: Jeckyll
-        level: 75%
-        
-      - name: Hugo
-        level: 20%
-        
-      - name: MarkDown
-        level: 85%
         
       - name: HTTP & REST
         level: 70% 
