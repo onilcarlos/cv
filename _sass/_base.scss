@@ -257,7 +257,7 @@ p {
     }
     .level-bar-inner {
         height: 12px;
-        background: lighten($theme-color, 80%);
+        background: lighten($theme-color, 15%);
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -272,7 +272,7 @@ p {
 	padding: 1px 5px 1px 5px;
 	vertical-align: top; 
 	float: right; 
-	color: lighten($theme-color, 10%);
+	color: #fff;
         background: $theme-color;
     }
 }
