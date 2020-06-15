@@ -345,8 +345,8 @@ skills:
         level: 15%
         
 footer: >
-    Get in <i class="far fa-file-pdf fa-lg" style="color: {{ $theme-color }}"></i> <a href="http://onilcalcines.com/resume/pdf" target="_blank" rel="nofollow">PDF Format</a> - 
-    Contact me at  <i class="fab fa-twitter fa-lg" style="color: {{ $theme-color }}"></i><a href="https://twitter.com/@onilcarlosit" target="_blank">@onilcarlosit</a>
+    Get in <i class="far fa-file-pdf fa-lg" style="color: {{ site.theme_skin }}"></i> <a href="http://onilcalcines.com/resume/pdf" target="_blank" rel="nofollow">PDF Format</a> - 
+    Contact me at  <i class="fab fa-twitter fa-lg" style="color: {{ site.theme_skin }}"></i><a href="https://twitter.com/@onilcarlosit" target="_blank">@onilcarlosit</a>
     <hr />
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
 
