@@ -273,7 +273,7 @@ p {
 	vertical-align: top; 
 	float: right; 
 	color: lighten($theme-color, 10%);
-        background: $theme-color;
+        background: lighten($theme-color, 10%);
     }
 }
 
