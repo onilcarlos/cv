@@ -264,7 +264,7 @@ p {
     .level-bar-inner {
         height: 14px;
 	margin: 2px 0;
-        background: lighten($theme-color, 28%);
+        background: lighten($theme-color, 25%);
 	border-radius: 6px;
 	-moz-border-radius: 6x;
 	-webkit-border-radius: 6px;
@@ -274,13 +274,13 @@ p {
 	font-size: 12px;
 	font-weight: bold !important;
 	margin: -2px 0px -2px 0 !important;
-	padding: 2px 10px 2px 10px !important;
-	border-radius: 7px; 
-	-moz-border-radius: 7px; 
-	-webkit-border-radius: 7px; 
+	padding: 1px 10px 1px 10px !important;
+	border-radius: 6px; 
+	-moz-border-radius: 6px; 
+	-webkit-border-radius: 6px; 
 	float: right; 
 	color: #ffffff;
-        background: darken($theme-color, 8%);
+        background: darken($theme-color, 7%);
     }
 
 }
