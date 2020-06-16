@@ -238,7 +238,7 @@ p {
 }
 
 .panel-default > .panel-heading .badge {
-    background: $theme-color !important;
+    background: darken($theme-color, 100%) !important;
     color: #ffffff;
     float: right;
 }
