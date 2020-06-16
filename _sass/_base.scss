@@ -255,21 +255,21 @@ p {
         margin-bottom: 12px;
     }
     .level-bar {
-        height: 14px;
+        height: 13px;
         background: $smoky-white;
 	border-radius: 7px;
 	-moz-border-radius: 7px;
 	-webkit-border-radius: 7px;
     }
     .level-bar-inner {
-        height: 14px;
+        height: 13px;
         background: lighten($theme-color, 20%);
 	border-radius: 7px;
 	-moz-border-radius: 7x;
 	-webkit-border-radius: 7px;
     }
     .level-bar-text {
-	height: 14px;
+	height: 13px;
 	font-size: 12px;
 	font-weight: bold;
 	margin: -1px 0 -1px 0;
