@@ -237,8 +237,8 @@ p {
     }
 }
 
-.panel-default>.panel-heading .badge {
-    background: $theme-color !important;
+.panel-default > .panel-heading .badge {
+    background: #4cac9d; //$theme-color !important;
     color: #ffffff;
     float: right;
 }
