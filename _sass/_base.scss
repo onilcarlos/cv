@@ -238,7 +238,7 @@ p {
 }
 
 .panel-default > .panel-heading .badge {
-    background: darken($theme-color, 10%) !important;
+    background: darken($theme-color, 20%) !important;
     color: #ffffff;
     float: right;
 }
@@ -254,31 +254,31 @@ p {
         margin-bottom: 12px;
     }
     .level-bar {
-        height: 12px;
+        height: 16px;
         background: $smoky-white;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
     }
     .level-bar-inner {
-        height: 12px;
-        background: lighten($theme-color, 15%);
+        height: 14px;
+        background: lighten($theme-color, 35%);
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
     }
     .level-bar-text {
-	border-radius: 3px; 
-	-moz-border-radius: 3px; 
-	-webkit-border-radius: 3px; 
-	font-size: 9px;
+	height: 16px;
+	font-size: 12px;
 	font-weight: bold;
 	margin: -1px 0px 0px 0px;
 	padding: 1px 5px 1px 5px;
-	vertical-align: top; 
+	border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 
 	float: right; 
 	color: #ffffff;
-        background: $theme-color;
+        background: darken($theme-color, 5%);
     }
 
 }
