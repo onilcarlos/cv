@@ -238,9 +238,10 @@ p {
 }
 
 .panel-default > .panel-heading .badge {
-    background: darken($theme-color, 20%) !important;
+    background: darken($theme-color, 10%) !important;
     color: #ffffff;
     float: right;
+    padding: 5px 15px;
 }
 
 .skillset {
@@ -261,17 +262,17 @@ p {
 	-webkit-border-radius: 5px;
     }
     .level-bar-inner {
-        height: 14px;
-        background: lighten($theme-color, 35%);
+        height: 16px;
+        background: lighten($theme-color, 20%);
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
     }
     .level-bar-text {
-	height: 16px;
+	height: 20px;
 	font-size: 12px;
 	font-weight: bold;
-	margin: -1px 0px 0px 0px;
+	margin: -1px 0 -1px 0;
 	padding: 1px 5px 1px 5px;
 	border-radius: 3px; 
 	-moz-border-radius: 3px; 
