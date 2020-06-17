@@ -9,8 +9,6 @@
   <ul class="list-unstyled interests-list">
     {% for interest in interests %}
       <li>
-        <div class="panel panel-default">
-          <div class="panel-heading">
             <h4 class="panel-title">
               {% if interest.link %}
                 {{ interest.item }} 
@@ -21,17 +19,16 @@
                 {{ interest.item }}
               {% endif %}
             </h4>
-          </div>
+          
           {% if interest.courses %} 
-          <div class="panel-body">
-            <ul class="list-group">
+            <ul>
               {% for element in interest.courses %}
-                <li class="list-group-item"> {{ element.course }} </li>
+                <li> {{ element.course }} </li>
               {% endfor %}
             </ul>
-          </div>
+          
           {% endif %}
-        </div>
+        <hr />
     </li>
     {% endfor %}
   </ul>
