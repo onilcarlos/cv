@@ -9,21 +9,29 @@
   <ul class="list-unstyled interests-list">
     {% for interest in interests %}
       <li>
-        <h4>
-        {% if interest.link %}
-          <a href="{{ interest.link }}" target="_blank">{{ interest.item }}</a>
-        {% else %}
-        {{ interest.item }}
-        {% endif %}
-        </h4>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              {% if interest.link %}
+                {{ interest.item }} 
+                <a href="{{ interest.link }}" target="_blank"> 
+                  <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+                </a>
+              {% else %}
+                {{ interest.item }}
+              {% endif %}
+            </h4>
+          </div>
           {% if interest.courses %} 
+          <div class="panel-body">
             <ul>
               {% for element in interest.courses %}
                 <li> {{ element.course }} </li>
               {% endfor %}
             </ul>
+          </div>
           {% endif %}
-        
+        </div>
     </li>
     {% endfor %}
   </ul>
