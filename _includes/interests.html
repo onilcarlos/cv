@@ -24,9 +24,9 @@
           </div>
           {% if interest.courses %} 
           <div class="panel-body">
-            <ul>
+            <ul class="list-group">
               {% for element in interest.courses %}
-                <li> {{ element.course }} </li>
+                <li class="list-group-item"> {{ element.course }} </li>
               {% endfor %}
             </ul>
           </div>
