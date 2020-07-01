@@ -1,0 +1,10 @@
+I"�<p>Basically:</p>
+<ul>
+  <li>Designed, architected and wrote the front-end of our eCommerce application using ReactJS with 14,000 reusable components.</li>
+  <li>Achieved a Lighthouse score of 100/100 on our frontend.</li>
+  <li>Optimized service layers, request queues and MongoDB data model to handle request load of 74,000-96,000/sec during flash sales.</li>
+  <li>Built a “UI leadership group” at FullStack Labs Inc. to mentor and train new engineers.</li>
+  <li>Researched and documented needs of 150 external partners and built an API abstraction layer for seamless integration without breaking.</li>
+  <li>Modernized our legacy Vendor management app originally built on Angular 2.0 to Vue.JS.</li>
+</ul>
+:ET

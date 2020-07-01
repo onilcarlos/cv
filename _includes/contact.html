@@ -79,5 +79,11 @@
     </li>
     {% endif %}
 
+    {% if sidebar.codepen %}
+    <li class="codepen"><i class="fab fa-codepen"></i>
+      <a href="https://codepen.io/{{ sidebar.codepen }}" target="_blank">{{ sidebar.codepen }}</a>
+    </li>
+    {% endif %}
+
   </ul>
 </div><!--//contact-container-->
