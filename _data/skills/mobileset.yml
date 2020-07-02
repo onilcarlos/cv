@@ -12,6 +12,10 @@ skills:
     level: 45%
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/react.svg
 
+  - name: Redux
+    level: 45%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/redux.svg
+
   - name: MERN Stack
     level: 45%
     new: true
@@ -27,6 +31,10 @@ skills:
   - name: Android
     level: 15%
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/android.svg
+
+  - name: Kotlin
+    level: 15%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/kotlin.svg
 
   - name: Swift
     level: 15%

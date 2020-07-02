@@ -17,6 +17,10 @@ skills:
     level: 40%
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/bitbucket.svg
 
+  - name: Heroku
+    level: 40%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/heroku.svg
+
   - name: Docker
     level: 40%
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/docker.svg
@@ -24,11 +28,22 @@ skills:
   - name: Gulp
     level: 55%
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/gulp.svg
-    new: true
+
+  - name: Grunt
+    level: 55%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/grunt.svg
 
   - name: Webpack
     level: 45%
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/webpack.svg
+
+  - name: PowerShell
+    level: 45%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/powershell.svg 
+
+  - name: Slack
+    level: 45%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/slack.svg
           
   - name: Unit testing
     level: 14%

@@ -5,9 +5,35 @@ skills:
     level: 90%
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/javascript.svg
 
+  - name: TypeScript
+    level: 90%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/typeScript.svg
+
   - name: jQuery
     level: 97%
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/jquery.svg
+
+  - name: Sails
+    level: 97%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/jquery.svg
+
+  - name: Socket
+    level: 97%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/socket.svg  
+
+  - name: Meteor
+    level: 15%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/meteor.svg
+
+  - name: Ember
+    level: 15%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/ember-dot-js.svg
+
+  - name: Polymer
+    level: 15%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/polymer.svg
+
+
 
   - name: HTML5, XML
     level: 80%
@@ -25,6 +51,14 @@ skills:
   - name: CSS3
     level: 70%
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/css3.svg
+
+  - name: SASS
+    level: 70%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/sass.svg
+
+  - name: Stylus
+    level: 70%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/stylus.svg
 
   - name: SVG
     level: 80%

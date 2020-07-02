@@ -20,6 +20,10 @@ skills:
   - name: MongoDB
     level: 60%
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/mongodb.svg
+
+  - name: Redis
+    level: 60%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/redis.svg
           
   - name: GraphQL
     level: 30%
@@ -29,6 +33,10 @@ skills:
   - name: Oracle
     level: 35%
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/oracle.svg
+
+  - name: MS Access
+    level: 85%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/microsoftaccess.svg
           
   - name: Firebase
     level: 30%

@@ -34,6 +34,16 @@ skills:
     level: 75%
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/jekyll.svg
           
+  - name: Netlify
+    level: 75%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/netlify.svg
+    new: true
+
+  - name: Gatsby
+    level: 75%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/gatsby.svg
+    new: true
+          
   - name: Go
     level: 25%
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/go.svg
@@ -69,3 +79,7 @@ skills:
   - name: .NET
     level: 10%
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/dot-net.svg
+
+  - name: C#
+    level: 10%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/csharp.svg 
