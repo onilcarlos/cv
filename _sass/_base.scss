@@ -255,11 +255,6 @@ p {
         margin-bottom: 15px;
         overflow: hidden;
     }
-    .iconskill {
-        margin: 0 5px;
-        -webkit-filter: invert(.5) sepia(1) saturate(100) hue-rotate(175deg);
-	    filter: invert(.5) sepia(1) saturate(100) hue-rotate(175deg);
-    }
     .level-title {
         font-size: 14px;
         margin-top: 0;
@@ -305,6 +300,12 @@ p {
         background: darken($theme-color, 1%);
     }
     
+}
+
+.iconskill {
+    margin: 0 5px;
+    -webkit-filter: invert(.5) sepia(1) saturate(100) hue-rotate(175deg);
+    filter: invert(.5) sepia(1) saturate(100) hue-rotate(175deg);
 }
 
 .footer {
