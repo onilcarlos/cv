@@ -1,0 +1,47 @@
+title: Data Base Skills
+desc: Skills for managment and code in data base platforms
+skills:
+  - name: SQL
+    level: 80%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/microsoftsqlserver.svg
+        
+  - name: SQL Lite
+    level: 90%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/sqlite.svg
+
+  - name: MySQL
+    level: 82%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/mysql.svg
+    new: true
+
+  - name: PostgreSQL
+    level: 15%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/postgresql.svg
+
+  - name: MongoDB
+    level: 60%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/mongodb.svg
+          
+  - name: GraphQL
+    level: 30%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/graphql.svg
+          
+  - name: Oracle
+    level: 35%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/oracle.svg
+          
+  - name: Firebase
+    level: 30%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/firebase.svg
+          
+  - name: AWS
+    level: 15%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/amazonaws.svg
+          
+  - name: Microsoft Azure
+    level: 15%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/microsoftazure.svg
+          
+  - name: Google Cloud Platforms
+    level: 15%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/googlecloud.svg

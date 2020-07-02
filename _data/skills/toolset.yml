@@ -1,0 +1,37 @@
+title: Tool Set Skills
+desc: Skills for use the general tools
+skills:
+  - name: Git
+    level: 90%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/git.svg
+
+  - name: Github
+    level: 95%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/github.svg
+
+  - name: Gitlab
+    level: 45%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/gitlab.svg
+
+  - name: Btbucket
+    level: 40%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/bitbucket.svg
+
+  - name: Docker
+    level: 40%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/docker.svg
+
+  - name: Gulp
+    level: 55%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/gulp.svg
+    new: true
+
+  - name: Webpack
+    level: 45%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/webpack.svg
+          
+  - name: Unit testing
+    level: 14%
+
+  - name: HTTP & REST
+    level: 70%

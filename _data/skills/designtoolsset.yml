@@ -1,0 +1,15 @@
+title: Design Tools Skills
+desc: Skills for using design tools
+skills:
+  - name: Adobe Photoshop
+    level: 60%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/adobephotoshop.svg
+        
+  - name: Sketch
+    level: 15%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/sketch.svg
+
+  - name: Figma
+    level: 15%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/figma.svg
+    new: true
