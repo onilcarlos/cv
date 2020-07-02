@@ -45,7 +45,7 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/microsoftazure.svg
     new: true
           
-  - name: Google Cloud Platforms
+  - name: Google Cloud
     level: 15%
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/googlecloud.svg
     new: true
