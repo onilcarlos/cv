@@ -1,0 +1,63 @@
+- name: Python
+  level: 80%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/python.svg
+        
+- name: Django
+  level: 90%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/django.svg
+
+- name: Flask
+  level: 50%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/flask.svg
+        
+- name: NodeJS
+  level: 60%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/node-dot-js.svg
+        
+- name: Ruby
+  level: 35%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/ruby.svg
+        
+- name: Ruby on Rails
+  level: 35%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/rails.svg
+        
+- name: Jekyll
+  level: 75%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/jekyll.svg
+        
+- name: Go
+  level: 25%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/go.svg
+        
+- name: Hugo
+  level: 20%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/hugo.svg
+        
+- name: PHP
+  level: 60%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/php.svg
+      
+- name: Laravel
+  level: 35%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/laravel.svg
+  
+- name: CakePHP
+  level: 35%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/cakephp.svg
+ 
+- name: Perl
+  level: 15%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/perl.svg
+
+- name: Elixir
+  level: 15%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/elixir.svg
+        
+- name: Java
+  level: 15%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/java.svg
+
+- name: .NET
+  level: 10%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/dot-net.svg

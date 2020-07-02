@@ -263,17 +263,17 @@ p {
     .level-bar {
         height: 20px;
         background: $smoky-white;
-	border-radius: 7px;
-	-moz-border-radius: 7px;
-	-webkit-border-radius: 7px;
+        border-radius: 7px;
+        -moz-border-radius: 7px;
+        -webkit-border-radius: 7px;
     }
     .level-bar-inner {
         height: 14px;
-	margin: 2px 0;
+	    margin: 2px 0;
         background: lighten($theme-color, 25%);
-	border-radius: 6px;
-	-moz-border-radius: 6x;
-	-webkit-border-radius: 6px;
+        border-radius: 6px;
+        -moz-border-radius: 6x;
+        -webkit-border-radius: 6px;
 	
         background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
         background-image: -o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
@@ -283,23 +283,27 @@ p {
         -webkit-animation: progress-bar-stripes 2s linear infinite;
         -o-animation: progress-bar-stripes 2s linear infinite;
         animation: progress-bar-stripes 2s linear infinite;
-	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
         box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
     }
     .level-bar-text {
-	height: 18px;
-	font-size: 12px;
-	font-weight: bold !important;
-	margin: -2px 0px -2px 0 !important;
-	padding: 1px 7px 1px 8px !important;
-	border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	-webkit-border-radius: 5px; 
-	float: right; 
-	color: #ffffff;
+	    height: 18px;
+        font-size: 12px;
+        font-weight: bold !important;
+        margin: -2px 0px -2px 0 !important;
+        padding: 1px 7px 1px 8px !important;
+        border-radius: 5px; 
+        -moz-border-radius: 5px; 
+        -webkit-border-radius: 5px; 
+        float: right; 
+        color: #ffffff;
         background: darken($theme-color, 1%);
     }
-
+    .iconskill {
+        margin: 0 5px;
+        -webkit-filter: invert(.5) sepia(1) saturate(100) hue-rotate(175deg);
+	    filter: invert(.5) sepia(1) saturate(100) hue-rotate(175deg);
+    }
 }
 
 .footer {

@@ -201,49 +201,6 @@ channels_youtube:
 skills:
     title: Skills &amp; Proficiency
 
-    backendset:
-      - name: Python
-        level: 80%
-        
-      - name: Django
-        level: 90%
-
-      - name: Flask
-        level: 50%
-        
-      - name: NodeJS
-        level: 60%
-        
-      - name: Ruby on Rails
-        level: 35%
-        
-      - name: Jeckyll
-        level: 75%
-        
-      - name: Go
-        level: 25%
-        
-      - name: Hugo
-        level: 20%
-        
-      - name: PHP
-        level: 60%
-      
-      - name: Laravel
-        level: 35%
-        
-      - name: Pear
-        level: 15%
-        
-      - name: Elixir
-        level: 15%
-        
-      - name: Java
-        level: 15%
-
-      - name: .NET
-        level: 10%
-        
     frontentset:
       - name: Javascript
         level: 90%
