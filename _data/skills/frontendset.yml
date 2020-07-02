@@ -16,6 +16,7 @@ skills:
   - name: JSON, YAML, CSV
     level: 80%
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/json.svg
+    new: true
 
   - name: MarkDown
     level: 85%

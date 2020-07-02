@@ -259,11 +259,18 @@ p {
             -webkit-filter: invert(.5) sepia(1) saturate(100) hue-rotate(175deg);
             filter: invert(.5) sepia(1) saturate(100) hue-rotate(175deg);
         }
+        .iconnewkill {
+            margin: 0 5px;
+            -webkit-filter: invert(0.45) sepia(5) saturate(60) hue-rotate(95deg);
+            filter: invert(0.45) sepia(5) saturate(60) hue-rotate(95deg);
+        }
+        
     }
     .level-title {
-        font-size: 14px;
+        font-size: 12px;
         margin-top: 0;
         margin-bottom: 12px;
+        color: darken($theme-color, 15%);
     }
     .level-bar {
         height: 20px;

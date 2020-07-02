@@ -201,30 +201,6 @@ channels_youtube:
 skills:
     title: Skills &amp; Proficiency
 
-    mobileset:
-      - name: Angular
-        level: 55%
-        
-      - name: MEAN
-        level: 55%
-
-      - name: React
-        level: 45%
-
-      - name: MERN
-        level: 45%
-
-      - name: Vue
-        level: 35%
-
-      - name: NativeScript
-        level: 57%
- 
-      - name: Android
-        level: 15%
-        
-      - name: Swift
-        level: 15%
         
     toolset:
       - name: Git

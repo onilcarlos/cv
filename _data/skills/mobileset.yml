@@ -1,0 +1,33 @@
+title: Mobile Skills
+desc: Skills for code in mobile apps
+skills:
+  - name: Angular
+    level: 55%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/angular.svg
+
+  - name: MEAN Stack
+    level: 55%
+  
+  - name: React
+    level: 45%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/react.svg
+
+  - name: MERN Stack
+    level: 45%
+    new: true
+
+  - name: Vue
+    level: 35%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/vue-dot-js.svg
+
+  - name: NativeScript
+    level: 57%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/nativescript.svg
+
+  - name: Android
+    level: 15%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/android.svg
+
+  - name: Swift
+    level: 15%
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/swift.svg
