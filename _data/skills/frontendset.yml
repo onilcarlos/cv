@@ -1,0 +1,31 @@
+- name: Javascript
+  level: 90%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/javascript.svg
+
+- name: jQuery
+  level: 97%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/jquery.svg
+
+- name: HTML5, XML
+  level: 80%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/html5.svg
+
+- name: JSON
+  level: 80%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/json.svg
+
+- name: MarkDown
+  level: 85%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/markdown.svg
+
+- name: CSS3
+  level: 70%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/css3.svg
+
+- name: SVG
+  level: 80%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/svg.svg
+
+- name: Bootstrap
+  level: 65%
+  icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/bootstrap.svg
