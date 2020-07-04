@@ -1,67 +1,243 @@
 title: Front End Skills
 desc: Skills for code in the front end or client side
+order: 2
 skills:
   - name: Javascript
     level: 90%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/javascript.svg
+    website: javascript.com
+    version: 1.0
+    category:
 
   - name: TypeScript
     level: 90%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/typescript.svg
+    website:
+    version: 1.0
+    category:
 
   - name: jQuery
     level: 97%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/jquery.svg
+    website:
+    version: 1.0
+    category:
+
+  - name: Angular
+    level: 55%
+    new:
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/angular.svg
+    website:
+    version:
+    category:
+
+  - name: Express.js
+    level: 70%
+    new:
+    icon: https://bestofjs.org/logos/express.svg
+    website: expressjs.com
+    version: 4.17.1
+    category:
+
+  - name: MEAN Stack
+    level: 55%
+    new:
+    icon:
+    website: MEAN.io
+    version:
+    category:
+
+  - name: React
+    level: 45%
+    new:
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/react.svg
+    website:
+    version:
+    category:
+
+  - name: Redux
+    level: 45%
+    new:
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/redux.svg
+    website:
+    version:
+    category:
+
+  - name: Rx.js
+    level: 30%
+    new: true
+    icon: https://bestofjs.org/logos/rx.svg
+    website: rxjs.dev
+    version: 6.6.0
+    category:
+
+  - name: Redux-Observable
+    level: 30%
+    new: true
+    icon: https://redux-observable.js.org/logo/logo-small.gif
+    website: redux-observable.js.org
+    version: 1.2.0
+    desc: RxJS-based middleware for Redux. Compose and cancel async actions to create side effects and more.
+    category:
+
+  - name: MERN Stack
+    level: 45%
+    new: true
+    icon:
+    website:
+    version:
+    category:
+
+  - name: Vue
+    level: 35%
+    new:
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/vue-dot-js.svg
+    website:
+    version:
+    category:
+
+  - name: NativeScript
+    level: 57%
+    new:
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/nativescript.svg
+    website:
+    version:
+    category:
 
   - name: Sails
     level: 97%
-    icon: 
+    new:
+    icon: https://bestofjs.org/logos/sails.svg
+    website: sailsjs.com
+    version: 1.0
+    category:
 
-  - name: Socket
+  - name: Socket.io
     level: 97%
-    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/socket-dot-io.svg  
+    new:
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/socket-dot-io.svg
+    website: socket.io
+    version:
+    category:
 
-  - name: Meteor
+  - name: Meteor.js
     level: 15%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/meteor.svg
+    website: meteor.com
+    version:
+    category:
 
   - name: Ember
     level: 15%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/ember-dot-js.svg
+    website:
+    version:
+    category:
 
   - name: Polymer
     level: 15%
-    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/polymerprojects.svg
+    new:
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/polymerproject.svg
+    website:
+    version:
+    category:
+
+  - name: Loopback.io
+    level: 15%
+    new: true
+    icon: 
+    website: Loopback.io
+    version:
+    category:
+
+  - name: Jasmine   
+    level: 15%
+    new: true
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/jasmine.svg
+    website: https://jasmine.github.io
+    version:
+    category:
+
+  - name: Mocha   
+    level: 15%
+    new: true
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/mocha.svg
+    website: https://mochajs.org
+    version:
+    category:
 
   - name: HTML5, XML
     level: 80%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/html5.svg
-
-  - name: JSON, YAML, CSV
-    level: 80%
-    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/json.svg
-    new: true
+    website:
+    version:
+    category:
 
   - name: MarkDown
     level: 85%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/markdown.svg
+    website:
+    version:
 
-  - name: CSS3
-    level: 70%
-    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/css3.svg
-
-  - name: SASS
-    level: 70%
-    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/sass.svg
-
-  - name: Stylus
-    level: 70%
-    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/stylus.svg
+  - name: JSON, YAML, CSV
+    level: 80%
+    new:
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/json.svg
+    website:
+    version:
+    category:
 
   - name: SVG
     level: 80%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/svg.svg
+    website:
+    version:
+    category:
+
+  - name: Houdini
+    level: 15%
+    new: true
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/houdini.svg
+    website:
+    version:
+    category:
+
+  - name: CSS3
+    level: 70%
+    new:
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/css3.svg
+    website:
+    version:
+    category:
+
+  - name: SASS
+    level: 70%
+    new:
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/sass.svg
+    website:
+    version:
+    category:
+
+  - name: Stylus
+    level: 70%
+    new:
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/stylus.svg
+    website:
+    version:
+    category:
 
   - name: Bootstrap
     level: 65%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/bootstrap.svg
+    website: getbootstrap.com
+    version: 4.5.0
+    category:

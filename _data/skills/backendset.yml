@@ -1,85 +1,170 @@
 title: Backend Skills
 desc: Skills for code in the backend or server side
+order: 1
 skills:
   - name: Python
     level: 80%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/python.svg
+    website:
+    version:
+    category:
         
   - name: Django
     level: 90%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/django.svg
+    website:
+    version:
+    category:
 
   - name: Flask
     level: 50%
-    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/flask.svg
     new: true
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/flask.svg
+    website:
+    version:
+    category:
 
   - name: Celery
     level: 50%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/celery.svg
+    website:
+    version:
+    category:
 
   - name: NodeJS
     level: 60%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/node-dot-js.svg
+    website:
+    version:
+    category:
           
   - name: Ruby
     level: 35%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/ruby.svg
+    website:
+    version:
+    category:
           
   - name: Ruby on Rails
     level: 35%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/rails.svg
+    website:
+    version:
+    category:
           
   - name: Jekyll
     level: 75%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/jekyll.svg
+    website:
+    version: 4.1.1
+    category:
           
   - name: Netlify
     level: 75%
-    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/netlify.svg
     new: true
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/netlify.svg
+    website:
+    version:
+    category:
 
   - name: Gatsby
     level: 75%
-    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/gatsby.svg
     new: true
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/gatsby.svg
+    website:
+    version:
+    category:
           
   - name: Go
     level: 25%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/go.svg
+    website:
+    version:
+    category:
           
   - name: Hugo
     level: 20%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/hugo.svg
+    website:
+    version:
+    category:
           
   - name: PHP
     level: 60%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/php.svg
+    website:
+    version:
+    category:
         
   - name: Laravel
     level: 35%
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/laravel.svg
+    website:
+    version:
+    category:
     
   - name: CakePHP
     level: 35%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/cakephp.svg
+    website:
+    version:
+    category:
   
   - name: Perl
     level: 15%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/perl.svg
+    website:
+    version:
+    category:
 
   - name: Elixir
     level: 15%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/elixir.svg
+    website:
+    version:
+    category:
           
   - name: Java
     level: 15%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/java.svg
+    website:
+    version:
+    category:
 
   - name: .NET
     level: 10%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/dot-net.svg
+    website:
+    version:
+    category:
 
   - name: C#
     level: 10%
-    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/csharp.svg 
+    new:
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/csharp.svg
+    website:
+    version:
+    category:
+
+  - name: API Rest
+    level: 60%
+    new:
+    icon: 
+    website:
+    version:
+    category:

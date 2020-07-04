@@ -74,7 +74,7 @@ p {
 
     .avatar {
         //used for profile image
-        max-width: 100px;
+        max-width: 150px;
         margin-bottom: 15px;
         border: 3px solid #fff;
         border-radius: 100%;
@@ -243,73 +243,159 @@ p {
     }
 }
 
-.panel-default > .panel-heading .badge {
-    background: darken($theme-color, 10%) !important;
-    color: #ffffff;
-    float: right;
-    padding: 5px 15px;
+.panel-default > .panel-heading {
+    padding: 15px;
+    .badge {
+        background: darken($theme-color, 10%) !important;
+        color: #ffffff;
+        float: right;
+        padding: 5px 15px;
+        margin: -15px 0;
+    }
+    .skylldesc{
+        font-size: 11px;
+        font-weight: 400;
+        color: lighten($text-color-secondary, 30%);
+    }
 }
 
 .skillset {
     .item {
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         overflow: hidden;
-        .iconskill {
-            margin: 0 5px;
-            -webkit-filter: invert(.5) sepia(1) saturate(100) hue-rotate(175deg);
-            filter: invert(.5) sepia(1) saturate(100) hue-rotate(175deg);
-        }
-        .iconnewkill {
-            margin: 0 5px;
-            -webkit-filter: invert(0.45) sepia(5) saturate(60) hue-rotate(95deg);
-            filter: invert(0.45) sepia(5) saturate(60) hue-rotate(95deg);
-        }
+        padding: 5px 0 5px 0;
+
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+
+        box-shadow:  0 1px 2px rgba(0,0,0,.1);
+        -webkit-box-shadow:  0 1px 2px rgba(0,0,0,.1);
+        -moz-box-shadow:  0 1px 2px rgba(0,0,0,.1);
         
     }
     .level-title {
         font-size: 12px;
-        margin-top: 0;
-        margin-bottom: 12px;
-        color: darken($theme-color, 15%);
+        margin: 5px 0px 5px 0px;
+        color: darken($theme-color, 30%);
+        
+        .iconskill {
+            width: 25px;
+	        height: auto;
+            margin: 0 5px;
+            filter: $filter; 
+            -webkit-filter: $filter; 
+            -moz-filter: $filter; 
+        }
+        .iconskill:hover {
+            filter: $filter-grey;
+            -webkit-filter: $filter-grey;
+            -moz-filter: $filter-grey;
+        }
+        .fa-stack {
+            margin: 0 5px;
+            color: $theme-color;
+            
+        }
+        .fa-stack:hover {
+            color: lighten($darker-grey, 20%);
+        }
+        .fa-lg{
+            font-size: 1.1em;;
+        }
+        .linkskill{
+            color: darken($theme-color, 30%);
+            .fa-link {
+                opacity: 0;
+            }
+        }
+        .linkskill:hover {
+            cursor: pointer;
+            text-decoration: none;
+            filter: $filter-grey;
+            -webkit-filter: $filter-grey;
+            -moz-filter: $filter-grey;
+            .fa-link {
+                opacity: 100;
+            }
+        }
+        .versiontext {
+            font-size: 0.8em;
+            font-style: oblique;
+            color: $text-grey;
+            text-align: right;
+            display: block !important;
+            margin-right: 10px;
+        }
+        .iconnewskill {
+            margin: 0px 5px 0px 3px;
+            width: 24px;
+            height: auto;
+            float: right;
+            display: block;
+            
+            filter: $filter-new;
+            -webkit-filter: $filter-new;
+            -moz-filter: $filter-new;
+
+            -moz-transform: rotate(-15deg);
+            -webkit-transform: rotate(-15deg);
+            -o-transform: rotate(-15deg);
+            -ms-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+        }
     }
     .level-bar {
         height: 20px;
+        margin: 5px 0px 5px 0px;
         background: $smoky-white;
-        border-radius: 7px;
-        -moz-border-radius: 7px;
-        -webkit-border-radius: 7px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+	    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+        box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+        overflow: hidden;
     }
     .level-bar-inner {
         height: 14px;
-	    margin: 2px 0;
-        background: lighten($theme-color, 25%);
-        border-radius: 6px;
-        -moz-border-radius: 6x;
-        -webkit-border-radius: 6px;
+	    margin: 3px 0;
+        background: lighten($theme-color, 10%);
 	
-        background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
-        background-image: -o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
-        background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
-        -webkit-background-size: 40px 40px;
-        background-size: 40px 40px;
-        -webkit-animation: progress-bar-stripes 2s linear infinite;
-        -o-animation: progress-bar-stripes 2s linear infinite;
-        animation: progress-bar-stripes 2s linear infinite;
-	    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+        background-image: -webkit-linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+        background-image: -o-linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+        background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+        
+        background-size: 25px 25px;
+        -webkit-background-size: 25px 25px;
+        -moz-background-size: 25px 25px;
+        -webkit-animation: progress-bar-stripes 5s reverse linear infinite;
+        -o-animation: progress-bar-stripes 5s reverse linear infinite;
+        animation: progress-bar-stripes 5s reverse linear infinite;
+
+        border-radius: 0 8px 8px 0;
+        -moz-border-radius: 0 8px 8px 0;
+        -webkit-border-radius: 0 8px 8px 0;
+
         box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+        -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+        -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
     }
     .level-bar-text {
 	    height: 18px;
         font-size: 12px;
         font-weight: bold !important;
         margin: -2px 0px -2px 0 !important;
-        padding: 1px 7px 1px 8px !important;
-        border-radius: 5px; 
-        -moz-border-radius: 5px; 
-        -webkit-border-radius: 5px; 
+        padding: 1px 5px 0px 7px !important;
+        border-radius: 8px; 
+        -moz-border-radius: 8px; 
+        -webkit-border-radius: 8px;
         float: right; 
         color: #ffffff;
-        background: darken($theme-color, 1%);
+        background: darken($theme-color, 10%);
+    }
+    .level-bar-text:hover {
+        cursor: pointer;
+        background: darken($theme-color, 40%);
     }
     
 }

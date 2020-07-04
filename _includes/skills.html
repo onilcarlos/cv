@@ -10,14 +10,17 @@
     {{ skillinsite.title }}
   </h2>
 
-{% for skills_hash in site.data.skills %}
-{% assign skilltype = skills_hash[1] %}
+<!-- assign ordered_items = (site.data.skills | sort | order: 'order') 
+ for skilltype in ordered_items  -->
+
+{% for skills_hash in site.data.skills | sort %}
+{% assign skilltype = skills_hash[1] | reversed %}
 {% if skilltype %}
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h3 class="panel-title" data-toggle="tooltip" data-placement="left" title="{{ skilltype.desc }}">
-        {{ skilltype.title }}
-        
+      <h3 class="panel-title">
+        <div> {{ skilltype.title }} </div>
+        <span class="skylldesc">{{ skilltype.desc }}</span>
         <span class="badge">{{ skilltype.skills.size }}</span></h3>
     
     </div>
@@ -28,21 +31,27 @@
 
       <div class="item">
         <h5 class="level-title">
+          
           {% if skill.icon %} 
-            <img class="iconskill" height="20" width="20" src="{{ skill.icon }}" />
+            <img class="iconskill" src="{{ skill.icon }}" />
           {% else %}
-          <span class="fa-stack fa-xs" style="margin: 0 5px;">
+          <span class="fa-stack fa-lg">
             <i class="fas fa-circle fa-stack-2x"></i>
             <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
           </span>
           {% endif %}
-          {{ skill.name }}
-          {% if skill.new %} <img  class="iconnewkill" height="20" width="20" src="{{ site.url }}{{ site.baseurl }}/assets/images/new-product-sticker.svg" />{% endif %}
+          {% if skill.website %} 
+            <a class="linkskill" target="_blank" href="http://{{ skill.website }}"> {{ skill.name }} <i class="fa fa-link"></i></a>
+          {% else %}
+            {{ skill.name }}
+          {% endif %}
+          {% if skill.new %} <img  class="iconnewskill" src="{{ site.url }}{{ site.baseurl }}/assets/images/new-product-sticker.svg" />{% endif %}
+          {% if skill.version %} <span class="versiontext">- v{{ skill.version }}</span> {% endif %}
         </h5>
-
+          
         <div class="level-bar">
          <div class="level-bar-inner" data-level="{{ skill.level }}">
-          <div class="level-bar-text">
+          <div class="level-bar-text" data-toggle="tooltip" data-placement="top" title="{{  skill.level }}">
            {{ skill.level }}
           </div>
          </div>

@@ -1,59 +1,106 @@
 title: Data Base Skills
 desc: Skills for managment and code in data base platforms
+order: 5
 skills:
   - name: SQL
     level: 80%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/microsoftsqlserver.svg
+    website:
+    version:
+    category:
         
   - name: SQL Lite
     level: 90%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/sqlite.svg
+    website:
+    version:
+    category:
 
   - name: MySQL
     level: 82%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/mysql.svg
+    website:
+    version:
+    category:
 
   - name: PostgreSQL
     level: 15%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/postgresql.svg
+    website:
+    version:
+    category:
 
   - name: MongoDB
     level: 60%
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/mongodb.svg
+    website:
+    version:
+    category:
 
   - name: Redis
     level: 60%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/redis.svg
+    website:
+    version:
+    category:
           
   - name: GraphQL
     level: 30%
-    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/graphql.svg
     new: true
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/graphql.svg
+    website:
+    version:
+    category:
           
   - name: Oracle
     level: 35%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/oracle.svg
+    website:
+    version:
+    category:
 
   - name: MS Access
     level: 85%
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/microsoftaccess.svg
+    website:
+    version:
+    category:
           
   - name: Firebase
     level: 30%
-    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/firebase.svg
     new: true
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/firebase.svg
+    website:
+    version:
+    category:
           
   - name: AWS
     level: 15%
-    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/amazonaws.svg
     new: true
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/amazonaws.svg
+    website:
+    version:
+    category:
           
   - name: Microsoft Azure
     level: 15%
-    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/microsoftazure.svg
     new: true
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/microsoftazure.svg
+    website:
+    version:
+    category:
           
   - name: Google Cloud
     level: 15%
-    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/googlecloud.svg
     new: true
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/googlecloud.svg
+    website:
+    version:
+    category:
