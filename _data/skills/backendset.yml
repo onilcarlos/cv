@@ -161,6 +161,14 @@ skills:
     version:
     category:
 
+  - name: HTTP & REST
+    level: 70%
+    new:
+    icon:
+    website:
+    version:
+    category:
+
   - name: API Rest
     level: 60%
     new:
