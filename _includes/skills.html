@@ -33,7 +33,7 @@
         <h5 class="level-title">
           
           {% if skill.icon %} 
-            <img class="iconskill" src="{{ skill.icon }}" />
+            <img class="iconskill" height="25" width="25" src="{{ skill.icon }}" />
           {% else %}
           <span class="fa-stack fa-lg">
             <i class="fas fa-circle fa-stack-2x"></i>
@@ -45,7 +45,7 @@
           {% else %}
             {{ skill.name }}
           {% endif %}
-          {% if skill.new %} <img  class="iconnewskill" src="{{ site.url }}{{ site.baseurl }}/assets/images/new-product-sticker.svg" />{% endif %}
+          {% if skill.new %} <img height="24" width="24" class="iconnewskill" src="{{ site.url }}{{ site.baseurl }}/assets/images/new-product-sticker.svg" />{% endif %}
           {% if skill.version %} <span class="versiontext">- v{{ skill.version }}</span> {% endif %}
         </h5>
           
