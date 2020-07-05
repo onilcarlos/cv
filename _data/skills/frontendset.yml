@@ -202,14 +202,6 @@ skills:
     version:
     category:
 
-  - name: Houdini
-    level: 15%
-    new: true
-    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/houdini.svg
-    website:
-    version:
-    category:
-
   - name: CSS3
     level: 70%
     new:
@@ -240,4 +232,12 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/bootstrap.svg
     website: getbootstrap.com
     version: 4.5.0
+    category:
+
+  - name: Houdini
+    level: 15%
+    new: true
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/houdini.svg
+    website:
+    version:
     category:

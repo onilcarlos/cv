@@ -34,6 +34,22 @@ skills:
     version:
     category:
 
+  - name: SourceTree
+    level: 30%
+    new: true
+    icon: https://cdn.svgporn.com/logos/sourcetree.svg
+    website: https://www.sourcetreeapp.com/
+    version: 4.0.1_234
+    category:
+
+  - name: Gitkraken
+    level: 30%
+    new: true
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/gitkraken.svg
+    website: 
+    version:
+    category:
+
   - name: Heroku
     level: 40%
     new:

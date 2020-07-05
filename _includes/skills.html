@@ -41,7 +41,7 @@
           </span>
           {% endif %}
           {% if skill.website %} 
-            <a class="linkskill" target="_blank" href="http://{{ skill.website }}"> {{ skill.name }} <i class="fa fa-link"></i></a>
+            <a class="linkskill" target="_blank" href="{{ skill.website }}">{{ skill.name }}  <i class="fa fa-link"></i></a>
           {% else %}
             {{ skill.name }}
           {% endif %}
