@@ -6,9 +6,9 @@ skills:
     level: 90%
     new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/javascript.svg
-    website: javascript.com
+    website: https://javascript.com
     version: 1.0
-    category:
+    category: lenguajes
 
   - name: TypeScript
     level: 90%
@@ -16,15 +16,15 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/typescript.svg
     website:
     version: 1.0
-    category:
+    category: lenguajes
 
   - name: jQuery
-    level: 97%
-    new:
+    level: 57%
+    new: true
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/jquery.svg
     website:
     version: 1.0
-    category:
+    category: frameworks
 
   - name: Angular
     level: 55%
@@ -32,7 +32,7 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/angular.svg
     website:
     version:
-    category:
+    category: frameworks
 
   - name: Express.js
     level: 70%
@@ -40,7 +40,7 @@ skills:
     icon: https://bestofjs.org/logos/express.svg
     website: expressjs.com
     version: 4.17.1
-    category:
+    category: frameworks
 
   - name: MEAN Stack
     level: 55%
@@ -48,7 +48,7 @@ skills:
     icon:
     website: MEAN.io
     version:
-    category:
+    category: stacks
 
   - name: React
     level: 45%
@@ -56,7 +56,7 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/react.svg
     website:
     version:
-    category:
+    category: frameworks
 
   - name: Redux
     level: 45%
@@ -64,7 +64,7 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/redux.svg
     website:
     version:
-    category:
+    category: frameworks
 
   - name: Rx.js
     level: 30%
@@ -72,7 +72,7 @@ skills:
     icon: https://bestofjs.org/logos/rx.svg
     website: rxjs.dev
     version: 6.6.0
-    category:
+    category: frameworks
 
   - name: Redux-Observable
     level: 30%
@@ -81,7 +81,7 @@ skills:
     website: redux-observable.js.org
     version: 1.2.0
     desc: RxJS-based middleware for Redux. Compose and cancel async actions to create side effects and more.
-    category:
+    category: frameworks
 
   - name: MERN Stack
     level: 45%
@@ -89,7 +89,7 @@ skills:
     icon:
     website:
     version:
-    category:
+    category: stacks
 
   - name: Vue
     level: 35%
@@ -97,7 +97,7 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/vue-dot-js.svg
     website:
     version:
-    category:
+    category: frameworks
 
   - name: NativeScript
     level: 57%
@@ -105,23 +105,23 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/nativescript.svg
     website:
     version:
-    category:
+    category: frameworks
 
   - name: Sails
     level: 97%
     new:
     icon: https://bestofjs.org/logos/sails.svg
-    website: sailsjs.com
+    website: https://sailsjs.com
     version: 1.0
-    category:
+    category: frameworks
 
   - name: Socket.io
     level: 97%
     new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/socket-dot-io.svg
-    website: socket.io
+    website: https://socket.io
     version:
-    category:
+    category: frameworks
 
   - name: Meteor.js
     level: 15%
@@ -129,7 +129,7 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/meteor.svg
     website: meteor.com
     version:
-    category:
+    category: frameworks
 
   - name: Ember
     level: 15%
@@ -137,7 +137,7 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/ember-dot-js.svg
     website:
     version:
-    category:
+    category: frameworks
 
   - name: Polymer
     level: 15%
@@ -145,15 +145,15 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/polymerproject.svg
     website:
     version:
-    category:
+    category: frameworks
 
   - name: Loopback.io
     level: 15%
     new: true
-    icon: 
-    website: Loopback.io
+    icon: https://cdn.svgporn.com/logos/loopback-icon.svg
+    website: https://loopback.io/
     version:
-    category:
+    category: frameworks
 
   - name: Jasmine   
     level: 15%
@@ -161,7 +161,7 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/jasmine.svg
     website: https://jasmine.github.io
     version:
-    category:
+    category: frameworks testing
 
   - name: Mocha   
     level: 15%
@@ -169,7 +169,7 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/mocha.svg
     website: https://mochajs.org
     version:
-    category:
+    category: frameworks testing
 
   - name: HTML5, XML
     level: 80%
@@ -177,14 +177,14 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/html5.svg
     website:
     version:
-    category:
+    category: lenguajes
 
   - name: MarkDown
     level: 85%
     new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/markdown.svg
     website:
-    version:
+    version: frameworks
 
   - name: JSON, YAML, CSV
     level: 80%
@@ -192,7 +192,7 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/json.svg
     website:
     version:
-    category:
+    category: lenguajes of data formated
 
   - name: SVG
     level: 80%
@@ -200,7 +200,7 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/svg.svg
     website:
     version:
-    category:
+    category: lenguajes of data formated
 
   - name: CSS3
     level: 70%
@@ -208,7 +208,7 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/css3.svg
     website:
     version:
-    category:
+    category: lenguajes of style sheets
 
   - name: SASS
     level: 70%
@@ -216,7 +216,7 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/sass.svg
     website:
     version:
-    category:
+    category: lenguajes of style sheets
 
   - name: Stylus
     level: 70%
@@ -224,7 +224,7 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/stylus.svg
     website:
     version:
-    category:
+    category: lenguajes of style sheets
 
   - name: Bootstrap
     level: 65%
@@ -232,7 +232,7 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/bootstrap.svg
     website: getbootstrap.com
     version: 4.5.0
-    category:
+    category: css frameworks
 
   - name: Houdini
     level: 15%
@@ -240,4 +240,4 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/houdini.svg
     website:
     version:
-    category:
+    category: apis for css

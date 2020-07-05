@@ -27,12 +27,12 @@
    <div class="panel-body">
     <!-- skilltype list skills ... -->
     <div class="skillset">
+      {% assign skillordened = skilltype.skills | group_by: 'category' %}
       {% for skill in skilltype.skills %}
-
+      <!-- <h6>{{ skill.category | capitalize }}</h6> -->
       <div class="item">
         <h5 class="level-title">
-          
-          {% if skill.icon %} 
+          {% if skill.icon %}
             <img class="iconskill" height="25" width="25" src="{{ skill.icon }}" />
           {% else %}
           <span class="fa-stack fa-lg">
@@ -40,13 +40,14 @@
             <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
           </span>
           {% endif %}
-          {% if skill.website %} 
-            <a class="linkskill" target="_blank" href="{{ skill.website }}">{{ skill.name }}  <i class="fa fa-link"></i></a>
-          {% else %}
-            {{ skill.name }}
-          {% endif %}
-          {% if skill.new %} <img height="24" width="24" class="iconnewskill" src="{{ site.url }}{{ site.baseurl }}/assets/images/new-product-sticker.svg" />{% endif %}
-          {% if skill.version %} <span class="versiontext">- v{{ skill.version }}</span> {% endif %}
+          <span class="nameskill">
+            {% if skill.website %} 
+              <a class="linkskill" target="_blank" href="{{ skill.website }}">{{ skill.name }}  <i class="fa fa-link"></i></a>
+            {% else %}
+              {{ skill.name }}
+            {% endif %}
+            {% if skill.version %} <span class="versiontext">- v{{ skill.version }}</span> {% endif %}
+          </span>
         </h5>
           
         <div class="level-bar">
@@ -55,9 +56,8 @@
            {{ skill.level }}
           </div>
          </div>
-         
         </div><!--//level-bar-->
-
+        {% if skill.new %} <img height="24" width="24" class="iconnewskill" src="{{ site.url }}{{ site.baseurl }}/assets/images/new-product-sticker.svg" />{% endif %}
        </div><!--//item-->
       {% endfor %}
 

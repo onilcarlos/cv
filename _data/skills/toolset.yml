@@ -108,23 +108,23 @@ skills:
           
   - name: Unit testing
     level: 14%
-    new:
-    icon:
-    website:
+    new: true
+    icon: https://cdn.svgporn.com/logos/unitjs.svg
+    website: https://unitjs.com/
     version:
     category:
 
   - name: Google Chrome
     level: 80%
-    new: true
+    new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/googlechrome.svg
-    website: google.com/chrome
+    website: https://www.google.com/chrome
     version: 83.0.4103.106
     category:
 
   - name: Brave
-    level: 50%
-    new: 
+    level: 30%
+    new: new
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/brave.svg
     website: brave.com
     version: 0.56.14
