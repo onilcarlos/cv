@@ -6,33 +6,57 @@ skills:
     level: 80%
     new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/python.svg
-    website:
-    version:
-    category:
+    website: https://www.python.org/
+    version: 3.8.3
+    category: High-level programming language
+    desc: interpreted, high-level, general-purpose programming language
+    license: BSD License
+    developed: Guido van Rossum
+    authors: Guido van Rossum
+    initial_release: 04.01.2010
+    written_in: c
         
   - name: Django
-    level: 90%
+    level: 78%
     new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/django.svg
-    website:
-    version:
-    category:
+    website: https://www.djangoproject.com/
+    version: 3.0.8
+    category: python web frameworks
+    desc: Python-based free and open-source full-stack web framework
+    license: 3-clause BSD License
+    developed: Django Software Foundation
+    authors: Adrian Holovaty, Simon Willison
+    initial_release: 07.15.2005
+    written_in: python
 
   - name: Flask
     level: 50%
     new: true
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/flask.svg
     website:
-    version:
-    category:
+    version: 1.1.2
+    category: python web frameworks 
+    desc: micro web framework written in Python
+    license: BSD License
+    developed: Armin Ronacher
+    authors: Armin Ronacher
+    initial_release: 04.01.2010
+    written_in: python
 
   - name: Celery
     level: 50%
     new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/celery.svg
     website:
-    version:
-    category:
+    version: 4.2
+    category: python web frameworks 
+    desc: open source asynchronous task queue or job queue which is based on distributed message passing
+    license: BSD License
+    developed: Armin Ronacher
+    authors: Armin Ronacher
+    initial_release: 04.01.2010
+    written_in: python
 
   - name: NodeJS
     level: 60%
@@ -41,6 +65,12 @@ skills:
     website:
     version:
     category:
+    desc:
+    license: 
+    developed: 
+    authors: 
+    initial_release: 
+    written_in: 
           
   - name: Ruby
     level: 35%
@@ -49,6 +79,12 @@ skills:
     website:
     version:
     category:
+    desc:
+    license: 
+    developed: 
+    authors: 
+    initial_release: 
+    written_in: 
           
   - name: Ruby on Rails
     level: 35%
@@ -57,14 +93,26 @@ skills:
     website:
     version:
     category:
+    desc:
+    license: 
+    developed: 
+    authors: 
+    initial_release: 
+    written_in: 
           
   - name: Jekyll
     level: 75%
     new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/jekyll.svg
-    website:
+    website: https://www.jekyllrb.com/
     version: 4.1.1
     category:
+    desc:
+    license: 
+    developed: 
+    authors: 
+    initial_release: 
+    written_in: 
           
   - name: Netlify
     level: 75%
@@ -73,6 +121,12 @@ skills:
     website:
     version:
     category:
+    desc:
+    license: 
+    developed: 
+    authors: 
+    initial_release: 
+    written_in: 
 
   - name: Gatsby
     level: 75%
@@ -81,6 +135,12 @@ skills:
     website:
     version:
     category:
+    desc:
+    license: 
+    developed: 
+    authors: 
+    initial_release: 
+    written_in: 
           
   - name: Go
     level: 25%
@@ -89,6 +149,12 @@ skills:
     website:
     version:
     category:
+    desc:
+    license: 
+    developed: 
+    authors: 
+    initial_release: 
+    written_in: 
           
   - name: Hugo
     level: 20%
@@ -97,6 +163,12 @@ skills:
     website:
     version:
     category:
+    desc:
+    license: 
+    developed: 
+    authors: 
+    initial_release: 
+    written_in: 
           
   - name: PHP
     level: 60%
@@ -105,6 +177,12 @@ skills:
     website:
     version:
     category:
+    desc:
+    license: 
+    developed: 
+    authors: 
+    initial_release: 
+    written_in: 
         
   - name: Laravel
     level: 35%
@@ -112,6 +190,12 @@ skills:
     website:
     version:
     category:
+    desc:
+    license: 
+    developed: 
+    authors: 
+    initial_release: 
+    written_in: 
     
   - name: CakePHP
     level: 35%
@@ -120,6 +204,12 @@ skills:
     website:
     version:
     category:
+    desc:
+    license: 
+    developed: 
+    authors: 
+    initial_release: 
+    written_in: 
   
   - name: Perl
     level: 15%
@@ -128,6 +218,12 @@ skills:
     website:
     version:
     category:
+    desc:
+    license: 
+    developed: 
+    authors: 
+    initial_release: 
+    written_in: 
 
   - name: Elixir
     level: 15%
@@ -136,6 +232,12 @@ skills:
     website:
     version:
     category:
+    desc:
+    license: 
+    developed: 
+    authors: 
+    initial_release: 
+    written_in: 
           
   - name: Java
     level: 15%
@@ -144,6 +246,12 @@ skills:
     website:
     version:
     category:
+    desc:
+    license: 
+    developed: 
+    authors: 
+    initial_release: 
+    written_in: 
 
   - name: .NET
     level: 10%
@@ -152,6 +260,12 @@ skills:
     website:
     version:
     category:
+    desc:
+    license: 
+    developed: 
+    authors: 
+    initial_release: 
+    written_in: 
 
   - name: C#
     level: 10%
@@ -160,6 +274,12 @@ skills:
     website:
     version:
     category:
+    desc:
+    license: 
+    developed: 
+    authors: 
+    initial_release: 
+    written_in: 
 
   - name: HTTP & REST
     level: 70%
@@ -168,6 +288,12 @@ skills:
     website:
     version:
     category:
+    desc:
+    license: 
+    developed: 
+    authors: 
+    initial_release: 
+    written_in: 
 
   - name: API Rest
     level: 60%
@@ -176,3 +302,9 @@ skills:
     website:
     version:
     category:
+    desc:
+    license: 
+    developed: 
+    authors: 
+    initial_release: 
+    written_in: 

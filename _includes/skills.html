@@ -10,41 +10,92 @@
     {{ skillinsite.title }}
   </h2>
 
-<!-- assign ordered_items = (site.data.skills | sort | order: 'order') 
- for skilltype in ordered_items  -->
+<!-- Build a Array with Data Hash of skills
 
-{% for skills_hash in site.data.skills | sort %}
-{% assign skilltype = skills_hash[1] | reversed %}
+ assign ordered_items = (site.data.skills | sort | order: 'order') 
+ for skilltype in ordered_items 
+ <pre>{{ site.data.skills }} </pre>  -->
+{% capture skillsarray %}
+  { 
+    {% for skills_hash in site.data.skills %}
+    {{ skills_hash[0] }}:{
+      {% for skills_hash2 in skills_hash[1] %}
+        {% if forloop.last == false %}
+          {{ skills_hash2[0] }}: {{ skills_hash2[1] }}, 
+        {% else %}
+          {{ skills_hash2[0] }}:{
+            {% for skills_hash3 in skills_hash2[1] %}{
+              {% for skillatt in skills_hash3 %}
+                {{ skillatt[0] }}: {{ skillatt[1] }} {% if forloop.last == false %} , {% endif %}
+              {% endfor %} } {% if forloop.last == false %} , {% endif %}
+            {% endfor %} } {% if forloop.last == false %} , {% endif %}
+        {% endif %}
+      {% endfor %}  
+     } {% if forloop.last == false %} , {% endif %}
+    {% endfor %}
+   } {% if forloop.last == false %} , {% endif %}
+{% endcapture %}
+
+<pre> {{ skillsarray }} </pre>
+<!-- {% for skillsdata in skillsarray %}
+
+<h1> data: {{ skillsdata.backendset.tittle }} </h1>
+
+{% endfor %} -->
+{% assign skillslist = '' %}
+{% for skills_hash in site.data.skills %}
+  {% assign skillslist = skillslist | append: skills_hash[0] %}
+  {% if forloop.last == false %} 
+    {% assign skillslist = skillslist | append:  ","  %}
+  {% endif %}
+{% endfor %}
+
+{% assign dataskills = skillslist | split: "," %}
+<pre>{{ dataskills.type }}</pre>
+
+<pre>
+{% for member in dataskills.type %}
+  {{ member }}
+{% endfor %}
+</pre>
+
+
+<!-- End for Skills Array building -->
+
+{% for skills_hash in site.data.skills %}
+{% assign skilltype = skills_hash[1] %}
 {% if skilltype %}
   <div class="panel panel-default">
     <div class="panel-heading">
       <h3 class="panel-title">
         <div> {{ skilltype.title }} </div>
         <span class="skylldesc">{{ skilltype.desc }}</span>
-        <span class="badge">{{ skilltype.skills.size }}</span></h3>
-    
+        <span class="badge">{{ skilltype.skills.size }}</span>
+      </h3>
     </div>
    <div class="panel-body">
     <!-- skilltype list skills ... -->
     <div class="skillset">
       {% assign skillordened = skilltype.skills | group_by: 'category' %}
       {% for skill in skilltype.skills %}
-      <!-- <h6>{{ skill.category | capitalize }}</h6> -->
+      {% if forloop.first == true %}
+        <h4>{{ skill.category | capitalize }}</h4>
+      {% endif %}
       <div class="item">
         <h5 class="level-title">
           {% if skill.icon %}
-            <img class="iconskill" height="25" width="25" src="{{ skill.icon }}" />
+            <img class="iconskill" title="{{skill.name}}" height="25" width="25" src="{{ skill.icon }}" />
           {% else %}
-          <span class="fa-stack fa-lg">
+          <span class="fa-stack fa-lg" title="{{skill.name}}">
             <i class="fas fa-circle fa-stack-2x"></i>
             <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
           </span>
           {% endif %}
           <span class="nameskill">
             {% if skill.website %} 
-              <a class="linkskill" target="_blank" href="{{ skill.website }}">{{ skill.name }}  <i class="fa fa-link"></i></a>
+              <a class="linkskill" target="_blank" href="{{ skill.website }}">{{ skill.name | truncate: 15 }}  <i class="fa fa-link"></i></a>
             {% else %}
-              {{ skill.name }}
+              {{ skill.name | truncate: 15 }}
             {% endif %}
             {% if skill.version %} <span class="versiontext">- v{{ skill.version }}</span> {% endif %}
           </span>

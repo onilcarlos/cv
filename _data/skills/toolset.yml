@@ -126,6 +126,16 @@ skills:
     level: 30%
     new: new
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/brave.svg
-    website: brave.com
+    website: https://www.brave.com
     version: 0.56.14
     category:
+
+  - name: Altair
+    level: 20%
+    new: new
+    icon: https://cdn.svgporn.com/logos/altair.svg
+    website: https://altair.sirmuel.design/
+    version: 2.4.11
+    category: GraphQL Client
+
+    

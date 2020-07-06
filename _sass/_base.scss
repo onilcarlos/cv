@@ -292,10 +292,12 @@ p {
     }
     .level-title {
         font-size: 1em;
-        margin: 5px 0px 5px 0px;
+        margin: 5px 5px 5px 5px;
+        padding: 0px;
         color: darken($theme-color,10%);
         .iconskill {
-            width: 2em;
+            width: 2.2em;
+            padding: 2px;
 	        height: auto;
             margin: 10px;
             filter: $filter; 
@@ -309,8 +311,8 @@ p {
         }
         .fa-stack {
             margin: 10px;
+            padding: 0px;
             color: darken($theme-color,10%);
-            
         }
         .fa-stack:hover {
             color: lighten($darker-grey, 20%);
@@ -344,9 +346,51 @@ p {
             color: $text-grey;
             text-align: right;
             display: block !important;
-            margin-right: 10px;
+            margin: -15px 10px 10px 10px;
+            padding: 0 10px 5px 0;
         }
         
+    }
+    .level-title:hover {
+        background: $smoky-white;
+        border-radius: 6px;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+
+        box-shadow:  0 1px 3px rgba(0,0,0,.4);
+        -webkit-box-shadow:  0 1px 3px rgba(0,0,0,.4);
+        -moz-box-shadow:  0 1px 3px rgba(0,0,0,.4);
+        .linkskill:hover {
+            font-size: 0.9em;
+        }
+        .fa-stack {
+            color: lighten($darker-grey,10%);
+            padding: 1px;
+
+            border-radius: 8px;
+            -moz-border-radius: 8px;
+            -webkit-border-radius: 8px;
+
+            box-shadow:  1px 1px 5px rgba(0,0,0,.8);
+            -webkit-box-shadow:  1px 1px 5px rgba(0,0,0,.8);
+            -moz-box-shadow:  1px 1px 5px rgba(0,0,0,.8);
+        }
+        .iconskill {
+            filter: $filter-grey;
+            -webkit-filter: $filter-grey;
+            -moz-filter: $filter-grey;
+
+            width: 2.3em;
+            padding: 2px;
+
+            border-radius: 8px;
+            -moz-border-radius: 8px;
+            -webkit-border-radius: 8px;
+
+            box-shadow:  1px 2px 5px rgba(0,0,0,.8);
+            -webkit-box-shadow:  1px 2px 5px rgba(0,0,0,.8);
+            -moz-box-shadow:  1px 2px 5px rgba(0,0,0,.8);
+        }
     }
     .iconnewskill {
         margin: 0px 5px 0px 3px;

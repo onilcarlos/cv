@@ -33,3 +33,11 @@ skills:
     website:
     version:
     category:
+  
+  - name: Xamarin
+    level: 65%
+    new:
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/xamarin.svg
+    website:
+    version:
+    category:

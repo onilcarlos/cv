@@ -107,6 +107,14 @@ skills:
     version:
     category: frameworks
 
+  - name: Total.js
+    level: 97%
+    new:
+    icon: https://avatars.githubusercontent.com/u/6499216?v=3&s=50
+    website: https://www.totaljs.com/
+    version: 1.0
+    category: node.js frameworks
+
   - name: Sails
     level: 97%
     new:
@@ -184,7 +192,8 @@ skills:
     new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/markdown.svg
     website:
-    version: frameworks
+    version:
+    category: lenguajes
 
   - name: JSON, YAML, CSV
     level: 80%
