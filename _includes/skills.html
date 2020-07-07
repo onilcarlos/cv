@@ -94,9 +94,9 @@
       <div class="item">
         <h5 class="level-title" data-toggle="tooltip" data-placement="top" title="{{ skill.desc | capitalize }}">
           {% if skill.icon %}
-            <img class="iconskill" data-toggle="tooltip" data-placement="top" title="{{skill.name}}" height="25" width="25" src="{{ skill.icon }}" />
+            <img class="iconskill" data-toggle="tooltip" data-placement="left" title="{{skill.name}}" height="25" width="25" src="{{ skill.icon }}" />
           {% else %}
-          <span class="fa-stack fa-lg" title="{{skill.name}}">
+          <span class="fa-stack fa-lg" data-toggle="tooltip" data-placement="left"  title="{{skill.name}}">
             <i class="fas fa-circle fa-stack-2x"></i>
             <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
           </span>
