@@ -58,13 +58,14 @@ skills:
     version:
     category:
 
-  - name: nom
+  - name: npm
     level: 40%
     new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/npm.svg
-    website:
-    version:
-    category:
+    website: https://www.npmjs.com/
+    version: 6.14.5
+    category: JavaScript Package Manager
+    desc: Package manager for the JavaScript programming language
 
   - name: Docker
     level: 40%
@@ -74,13 +75,33 @@ skills:
     version:
     category:
 
+  - name: Bower
+    level: 55%
+    new:
+    icon: https://simpleicons.org/icons/bower.svg
+    website: https://bower.io/
+    version: 1.8.8
+    category: Building tool
+    desc: package manager for the web
+    license: 
+    developed: "@fat and @maccman"
+    authors: Twitter’s open source effort
+    initial_release: 
+    written_in: JavaScript
+
   - name: Gulp
     level: 55%
     new:
-    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/gulp.svg
-    website:
-    version:
-    category:
+    icon: https://cdn.svgporn.com/logos/gulp.svg
+    website: https://gulpjs.com/
+    version: 4.0.2
+    category: Building tool
+    desc: open-source JavaScript toolkit created by Eric Schoffstall used as a streaming build system in front-end web development
+    license: MIT License
+    developed: Eric Schoffstall
+    authors: Eric Schoffstall
+    initial_release: 09.26.2019
+    written_in: JavaScript
 
   - name: Grunt
     level: 55%

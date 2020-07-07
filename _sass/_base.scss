@@ -33,7 +33,7 @@ p {
     max-width: 1000px;
     margin: 0 auto;
     position: relative;
-    @include box-shadow(0px 2px 4px rgba(0,0,0,0.1));
+    @include box-shadow(2px 2px 5px rgba(0,0,0,0.4));
 }
 
 .sidebar-wrapper {
@@ -80,10 +80,8 @@ p {
         border-radius: 100%;
         -moz-border-radius: 100%;
         -webkit-border-radius: 100%;
-
-        box-shadow: 0 0 0px rgba(0,0,0,.9);
-        -webkit-box-shadow: 0 0 20px rgba(0,0,0,.9);
-        -moz-box-shadow: 0 0 20px rgba(0,0,0,.9);
+        
+        @include box-shadow(2px 2px 10px rgba(0,0,0,.9));
 
     }
     .contact-list {
@@ -292,14 +290,16 @@ p {
     }
     .level-title {
         font-size: 1em;
+        line-height: 0.1em;
         margin: 5px 5px 5px 5px;
         padding: 0px;
         color: darken($theme-color,10%);
         .iconskill {
-            width: 2.2em;
-            padding: 2px;
-	        height: auto;
-            margin: 10px;
+            width: 3.4em;
+            height: 3.4em;
+            padding: 10px;
+            margin: 5px 0 3px 5px;
+
             filter: $filter; 
             -webkit-filter: $filter; 
             -moz-filter: $filter; 
@@ -310,15 +310,17 @@ p {
             -moz-filter: $filter-grey;
         }
         .fa-stack {
-            margin: 10px;
-            padding: 0px;
+            width: 2.3em;
+            height: 2.3em;
+            padding: 3px;
+            margin: 5px;
             color: darken($theme-color,10%);
         }
         .fa-stack:hover {
             color: lighten($darker-grey, 20%);
         }
         .fa-lg{
-            font-size: 1.1em;
+            font-size: 1.0em;
         }
         .linkskill{
             color: darken($theme-color,10%);
@@ -346,8 +348,8 @@ p {
             color: $text-grey;
             text-align: right;
             display: block !important;
-            margin: -15px 10px 10px 10px;
-            padding: 0 10px 5px 0;
+            margin: -5px 0px 5px 0px;
+            padding: 0 5px 5px 0;
         }
         
     }
@@ -361,35 +363,31 @@ p {
         -webkit-box-shadow:  0 1px 3px rgba(0,0,0,.4);
         -moz-box-shadow:  0 1px 3px rgba(0,0,0,.4);
         .linkskill:hover {
-            font-size: 0.9em;
+            color: lighten($darker-grey,10%);
         }
         .fa-stack {
             color: lighten($darker-grey,10%);
-            padding: 1px;
 
             border-radius: 8px;
             -moz-border-radius: 8px;
             -webkit-border-radius: 8px;
 
-            box-shadow:  1px 1px 5px rgba(0,0,0,.8);
-            -webkit-box-shadow:  1px 1px 5px rgba(0,0,0,.8);
-            -moz-box-shadow:  1px 1px 5px rgba(0,0,0,.8);
+            box-shadow:  1px 1px 5px rgba(0,0,0,.4) inset;
+            -webkit-box-shadow:  1px 1px 5px rgba(0,0,0,.4) inset;
+            -moz-box-shadow:  1px 1px 5px rgba(0,0,0,.4) inset;
         }
         .iconskill {
             filter: $filter-grey;
             -webkit-filter: $filter-grey;
             -moz-filter: $filter-grey;
 
-            width: 2.3em;
-            padding: 2px;
-
             border-radius: 8px;
             -moz-border-radius: 8px;
             -webkit-border-radius: 8px;
 
-            box-shadow:  1px 2px 5px rgba(0,0,0,.8);
-            -webkit-box-shadow:  1px 2px 5px rgba(0,0,0,.8);
-            -moz-box-shadow:  1px 2px 5px rgba(0,0,0,.8);
+            box-shadow:  1px 2px 5px rgba(0,0,0,.8) inset;
+            -webkit-box-shadow:  1px 2px 5px rgba(0,0,0,.8) inset;
+            -moz-box-shadow:  1px 2px 5px rgba(0,0,0,.8) inset;
         }
     }
     .iconnewskill {

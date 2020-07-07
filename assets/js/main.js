@@ -1,5 +1,7 @@
 jQuery(document).ready(function($) {
 
+    $('[data-toggle="tooltip"]').tooltip();
+
     $('.level-bar-inner').css('width', '0');
     
     $(window).on('load', function() {
@@ -16,6 +18,4 @@ jQuery(document).ready(function($) {
 
     });
    
-    
-
 });

@@ -17,7 +17,7 @@ skills:
     written_in: c
         
   - name: Django
-    level: 78%
+    level: 50%
     new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/django.svg
     website: https://www.djangoproject.com/
@@ -27,6 +27,20 @@ skills:
     license: 3-clause BSD License
     developed: Django Software Foundation
     authors: Adrian Holovaty, Simon Willison
+    initial_release: 07.15.2005
+    written_in: python
+        
+  - name: Tornado
+    level: 50%
+    new: true
+    icon: https://www.seasiainfotech.com/images/python/python-two.png
+    website: https://www.tornadoweb.org/
+    version: 6.0.4
+    category: python web frameworks
+    desc: Python-based free and open-source scalable, non-blocking web server and web application framework written in Python
+    license: Apache licence 2.0
+    developed: Ben Darnell, Bret Taylor and Facebook
+    authors: FriendFeed.com
     initial_release: 07.15.2005
     written_in: python
 
@@ -45,17 +59,17 @@ skills:
     written_in: python
 
   - name: Celery
-    level: 50%
-    new:
+    level: 30%
+    new: new
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/celery.svg
-    website:
-    version: 4.2
-    category: python web frameworks 
-    desc: open source asynchronous task queue or job queue which is based on distributed message passing
-    license: BSD License
-    developed: Armin Ronacher
-    authors: Armin Ronacher
-    initial_release: 04.01.2010
+    website: https://github.com/celery/celery
+    version: 4.4.6
+    category: Python-based Distributed Task Queue
+    desc: Task queue implementation for Python web applications 
+    license: BSD License 
+    developed: Asif Saif Uddin
+    authors: Asif Saif Uddin
+    initial_release: 06.11.2018
     written_in: python
 
   - name: NodeJS
@@ -106,7 +120,7 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/jekyll.svg
     website: https://www.jekyllrb.com/
     version: 4.1.1
-    category:
+    category: static website generator
     desc:
     license: 
     developed: 
@@ -162,7 +176,7 @@ skills:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/hugo.svg
     website:
     version:
-    category:
+    category: static website generator
     desc:
     license: 
     developed: 
@@ -307,4 +321,18 @@ skills:
     developed: 
     authors: 
     initial_release: 
+    written_in: 
+
+  - name: Webassembly
+    level: 12%
+    new: true
+    icon: https://simpleicons.org/icons/webassembly.svg
+    website: https://webassembly.org/
+    version: 1.0
+    category: Programming language
+    desc: open standard that defines a portable binary-code format for executable programs, and a corresponding textual assembly language, as well as interfaces for facilitating interactions between such programs and their host environment
+    license: Apache License 2.0
+    developed: W3C; Mozilla; Microsoft; Google; Apple
+    authors: World Wide Web Consortium (W3C)
+    initial_release: 03.01.2007
     written_in: 
