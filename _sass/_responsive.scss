@@ -24,6 +24,32 @@
         margin-bottom: 0;
     }
 
+
+    .skillset .level-title {
+        display: inline-block;
+        float: left;
+        width: 50%;
+        //margin-bottom: 0;
+    }
+    .skillset .level-bar {
+        display: inline-block;
+        float: left;
+        width: 90%;
+        position: relative;
+        top: 1px;
+        bottom: 1px;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    .skillset .iconnewskill {
+        display: inline-block;
+        float: left;
+        width: 5%;
+        margin: 5px;
+        position: relative;
+        bottom: 3px;
+    }
+
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -65,13 +91,13 @@
     .skillset .level-title {
         display: inline-block;
         float: left;
-        width: 36%;
+        width: 30%;
         margin-bottom: 0;
     }
     .skillset .level-bar {
         display: inline-block;
         float: left;
-        width: 55%;
+        width: 59%;
         position: relative;
         top: 15px;
     }
