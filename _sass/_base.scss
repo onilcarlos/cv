@@ -289,6 +289,7 @@ p {
         -moz-box-shadow:  0 1px 2px rgba(0,0,0,.1);
     }
     .level-title {
+        width: 30%;
         font-size: 1em;
         line-height: 0.1em;
         margin: 5px 5px 5px 5px;
@@ -392,7 +393,7 @@ p {
     }
     .iconnewskill {
         margin: 0px 5px 0px 3px;
-        width: 24px;
+        width: 5%;
         height: auto;
         display: inline-block;
         float: left;
@@ -408,6 +409,7 @@ p {
         transform: rotate(-15deg);
     }
     .level-bar {
+        width: 65%;
         height: 20px;
         margin: 5px 0px 5px 0px;
         background: $smoky-white;
