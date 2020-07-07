@@ -76,11 +76,13 @@
    <div class="panel-body">
     <!-- skilltype list skills ... -->
     <div class="skillset">
-      {% assign skillordened = skilltype.skills | group_by: 'category' %}
+      {% assign skillordened = skilltype.skills %}
       {% for skill in skilltype.skills %}
+      <!--
       {% if forloop.first == true %}
         <h4>{{ skill.category | capitalize }}</h4>
       {% endif %}
+      -->
       <div class="item">
         <h5 class="level-title">
           {% if skill.icon %}

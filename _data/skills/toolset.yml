@@ -58,6 +58,14 @@ skills:
     version:
     category:
 
+  - name: nom
+    level: 40%
+    new:
+    icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/npm.svg
+    website:
+    version:
+    category:
+
   - name: Docker
     level: 40%
     new:
