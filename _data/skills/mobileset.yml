@@ -6,17 +6,29 @@ skills:
     level: 25%
     new:
     icon: https://simpleicons.org/icons/androidstudio.svg
-    website: developer.android.com/studio
+    website: https://developer.android.com/studio
     version: 4.0
     category: Integrated Development Environment (IDE)
+    desc: the official integrated development environment for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development.
+    license: Freeware +Source code
+    developed: Google, JetBrains
+    authors: 
+    initial_release: 
+    written_in: Java, Kotlin, C++
 
   - name: Kotlin
     level: 15%
     new: true
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/kotlin.svg
-    website: kotlinlang.org
+    website: https://kotlinlang.org/
     version: 1.3.72
     category: Modern Statically Typed Programming Language
+    desc:
+    license: Freeware +Source code
+    developed: Google, JetBrains
+    authors: 
+    initial_release: 
+    written_in: Java, Kotlin, C++
 
   - name: Flutter
     level: 25%

@@ -10,6 +10,12 @@
     {{ skillinsite.title }}
   </h2>
 
+  {% if skillinsite.intro %}
+  <div class="intro">
+      <p>{{ skillinsite.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
 <!-- Build a Array with Data Hash of skills
 
  assign ordered_items = (site.data.skills | sort | order: 'order') 
@@ -113,16 +119,10 @@
         {% if skill.new %} <img height="24" width="24" class="iconnewskill" src="{{ site.url }}{{ site.baseurl }}/assets/images/new-product-sticker.svg" />{% endif %}
        </div><!--//item-->
       {% endfor %}
-
      </div><!-- //skillset -->
-     
    </div><!-- panel-body -->
   </div><!-- panel -->
-  
 {% endif %}
-
 {% endfor %}
-
 {% endif %}
-
 </section><!--//skills-section-->

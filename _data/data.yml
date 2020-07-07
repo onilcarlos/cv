@@ -200,6 +200,8 @@ channels_youtube:
 
 skills:
   title: Skills &amp; Proficiency
+  intro: >
+      Indicating the  domain's level of the domain of each skill with info about each tools.
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by 

@@ -278,7 +278,7 @@ p {
     .item {
         margin-bottom: 10px;
         overflow: hidden;
-        padding: 5px 0 5px 0;
+        padding: 2px 0 3px 0;
 
         border-radius: 3px;
         -moz-border-radius: 3px;
@@ -310,9 +310,9 @@ p {
             -moz-filter: $filter-grey;
         }
         .fa-stack {
-            width: 2.3em;
-            height: 2.3em;
-            padding: 3px;
+            width: 3.4em;
+            height: 3.4em;
+            padding: 10px 0 0 0;
             margin: 5px;
             color: darken($theme-color,10%);
         }
