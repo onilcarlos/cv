@@ -102,7 +102,7 @@
           </span>
           {% endif %}
             {% if skill.website %} 
-              <a class="linkskill" target="_blank" href="{{ skill.website }}">{{ skill.name | truncate: 15 }}  <i class="fa fa-link" data-toggle="tooltip" data-placement="right"  title="{{ skill.website }}"></i></a>
+              <a class="linkskill" data-toggle="tooltip" data-placement="right"  title="{{ skill.website }}" target="_blank" href="{{ skill.website }}">{{ skill.name | truncate: 15 }}  <i class="fa fa-link"data-toggle="tooltip" data-placement="right"  title="{{ skill.website }}"></i></a>
             {% else %}
               {{ skill.name | truncate: 15 }}
             {% endif %}
