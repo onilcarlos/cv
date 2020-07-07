@@ -38,7 +38,7 @@ skills:
     level: 70%
     new:
     icon: https://bestofjs.org/logos/express.svg
-    website: expressjs.com
+    website: https://expressjs.com
     version: 4.17.1
     category: frameworks
 
@@ -70,7 +70,7 @@ skills:
     level: 30%
     new: true
     icon: https://bestofjs.org/logos/rx.svg
-    website: rxjs.dev
+    website: https://rxjs.dev
     version: 6.6.0
     category: frameworks
 
@@ -78,7 +78,7 @@ skills:
     level: 30%
     new: true
     icon: https://redux-observable.js.org/logo/logo-small.gif
-    website: redux-observable.js.org
+    website: https://redux-observable.js.org
     version: 1.2.0
     desc: RxJS-based middleware for Redux. Compose and cancel async actions to create side effects and more.
     category: frameworks
@@ -135,7 +135,7 @@ skills:
     level: 15%
     new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/meteor.svg
-    website: meteor.com
+    website: https://meteor.com
     version:
     category: frameworks
 
@@ -239,7 +239,7 @@ skills:
     level: 65%
     new:
     icon: https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/bootstrap.svg
-    website: getbootstrap.com
+    website: https://getbootstrap.com
     version: 4.5.0
     category: css frameworks
 
